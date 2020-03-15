@@ -4727,7 +4727,7 @@ Wenn aktiviert, können Benutzer zusätzlich zu einer gültigen Kreditkarte mit 
   <phrase title="hard_bounce" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Hard Bounce]]></phrase>
   <phrase title="hashes_file_for_this_add_on_missing" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Die Datei hashes.json für dieses Add-on fehlt, so dass keine Überprüfung des Dateizustandes durchgeführt werden kann.]]></phrase>
   <phrase title="height" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Höhe]]></phrase>
-  <phrase title="help" addon_id="XF" global_cache="1" version_id="2001270" version_string="2.0.12"><![CDATA[Hilfe und Impressum]]></phrase>
+  <phrase title="help" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Hilfe & Rechtliches]]></phrase>
   <phrase title="help_cookies_description" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[<p>An dieser Stelle wird erklärt, wie diese Seite Cookies einsetzt. Wenn du dich weiterhin auf dieser Seite aufhältst, akzeptierst du unsere Verwendung der Cookies.</p>
 
 <h3 class="textHeading">Was sind Cookies</h3>
@@ -7161,7 +7161,7 @@ Callback-Argumente:
   <phrase title="receive_email_when_new_conversation_message_is_received" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Ich akzeptiere die Zusendung von E-Mails bei Aktualisierungen von Unterhaltungen.]]></phrase>
   <phrase title="receive_notification_when_someone" addon_id="XF" version_id="2010470" version_string="2.1.4"><![CDATA[Erhalte einen Hinweis wenn jemand]]></phrase>
   <phrase title="receive_push_notification_when_new_conversation_message_is_received" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Erhalte eine Push-Benachrichtigung bei einer Nachricht in einer Unterhaltung]]></phrase>
-  <phrase title="receive_site_mailings" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Ich erlaube die Zusendung von E-Mails bei News oder Aktualisierungen.]]></phrase>
+  <phrase title="receive_site_mailings" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[Ich erlaube die Zusendung von E-Mails mit Neuigkeiten und Informationen zu dieser Website.]]></phrase>
   <phrase title="receive_site_mailings_hint" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[]]></phrase>
   <phrase title="receive_site_mailings_option" addon_id="XF" version_id="2010370" version_string="2.1.3"><![CDATA[Ich akzeptiere die Zusendung von E-Mails bei News oder Aktualisierungen.]]></phrase>
   <phrase title="receive_this_users_news_feed" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Den News-Feed dieses Benutzers erhalten]]></phrase>
@@ -8374,29 +8374,80 @@ Für zusätzliche Sicherheit wird empfohlen, unten dein "Signing secret" einzuge
   <phrase title="templates_in_this_style_can_not_be_modified" addon_id="XF" version_id="0" version_string=""><![CDATA[Templates in diesem Style können nicht verändert werden. Bitte versuche einen anderen.]]></phrase>
   <phrase title="temporary" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Temporär]]></phrase>
   <phrase title="terms_and_rules" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Nutzungsbedingungen]]></phrase>
-  <phrase title="terms_rules_text" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[<p>Der Anbieter dieses Forums ist nicht für die Inhalte der hier verfassten Beiträge verantwortlich. Die Inhalte der Beiträge gehören ihren jeweiligen Autoren und geben auch nur die Meinung der Autoren wieder.</p>
+  <phrase title="terms_rules_text" addon_id="XF" version_id="2010770" version_string="2.1.7"><![CDATA[<p><strong>§ 1 Geltungsbereich</strong></p>
 
-<p>Du bestätigst mit deiner Anmeldung, dass du die angebotenen Services dieser Seite nicht zur Verbreitung von Inhalten verwendest, die Diffamierungen, Beleidigungen, Hass, Bedrohungen, Spam, Aufrufe zu Straftaten, Verletzungen des Jugendschutzes oder von Urheberrechten enthalten oder anderweitig strafrechtlich relevant sind.</p>
+<p>1. Für die Nutzung des Forums dev-community.de von Colognifornia (Einzelunternehmen), Jasper Raddatz, Salzburger Weg 47, 50858 Köln, Deutschland (nachfolgend "Anbieter" genannt) gelten nachfolgende Bedingungen.</p>
 
-<p>Verboten sind auch:
+<p>2. Mit der Registrierung erklären Sie sich mit den Nutzungsbedingungen unserer Webseite einverstanden. Durch Ihr Einverständnis garantieren Sie uns, dass Sie keine Beiträge erstellen werden, die gegen diese Nutzungsbedingungen verstoßen.</p>
+
+<p>3. Die Nutzung des Forums ist nur zulässig, wenn Sie als Nutzer diese Nutzungsbedingungen akzeptieren.</p>
+
+<p><strong>§ 2 Registrierung, Vertragsschluss und -gegenstand</strong></p>
+
+<p>1. Voraussetzung für die Nutzung des Forums ist die Registrierung über das entsprechende Online-Formular. Nach der Registrierung über das Online-Formular im Forum bekommen Sie eine Bestätigungsemail zur Verifizierung Ihrer Daten zugeschickt, mit der Sie Ihre Registrierung per Mouseclick bestätigen können. Mit der Aktivierung Ihres Accounts durch den Anbieter, kommt der unentgeltliche Foren-Nutzungsvertrag zustande (Vertragsschluss).</p>
+
+<p>2. Vertragsgegenstand ist die kostenlose Nutzung der Funktionen des Forums als Online-Kommunikationsplattform. Hierzu wird Ihnen als Nutzer ein „Account“ bereitgestellt, mit dem Sie Beiträge und Themen im Forum einstellen können.</p>
+
+<p>3. Es gibt grundsätzlich keinen Rechtsanspruch auf Freischaltung oder Teilnahme am Forum. Es gilt das uneingeschränkte Hausrecht des Betreibers.</p>
+
+<p>4. Ihr Foren-Account darf nur von Ihnen selbst genutzt werden. Ebenso sind Sie als Inhaber des Accounts für den Schutz vor dessen Missbrauch verantwortlich. Ihre Zugangsdaten sind daher vor dem Zugriff Dritter zu schützen. Die Verwendung von markenrechtlich geschützten Worten, Bildern und Internetadressen als Benutzername bzw. Profilbild ist nicht erlaubt.</p>
+
+<p>5. Der Anbieter wird sich bemühen, den Dienst möglichst unterbrechungsfrei zum Abruf anzubieten. Auch bei aller Sorgfalt können Ausfallzeiten nicht ausgeschlossen werden, in denen die Webserver auf Grund von technischen oder sonstigen Problemen, die nicht im Einflussbereich vom Anbieter liegen (Verschulden Dritter, höhere Gewalt, Angriffe gegen die Infrastruktur durch Hacker etc.), über das Internet nicht abrufbar sind. Der Nutzer erkennt an, dass eine 100%ige Verfügbarkeit der Website technisch nicht zu realisieren ist.</p>
+
+<p>6. Der Anbieter behält sich das Recht vor, Inhalt und Struktur der Plattform sowie die dazugehörigen Benutzeroberflächen zu ändern und zu erweitern, wenn hierdurch die Zweckerfüllung des mit dem Nutzer geschlossenen Vertrags nicht oder nur unerheblich beeinträchtigt wird. Der Anbieter wird die Nutzer entsprechend über die Änderungen informieren.</p>
+
+<p>7. Sinn und Zweck des Forums ist ein an die Öffentlichkeit gerichteter "Markt der Meinungen". Es soll daher unter den Nutzern ein friedlicher und respektvoller Umgang ohne beleidigende Anfeindungen gepflegt werden.</p>
+
+<p><strong>§ 3 Pflichten als Foren-Nutzer</strong></p>
+
+<p>1. Als Nutzer verpflichten Sie sich, dass Sie keine Beiträge veröffentlichen werden, die gegen diese Regeln, die guten Sitten oder sonst gegen geltendes deutsches Recht verstoßen. Es ist Ihnen insbesondere untersagt,</p>
+
 <ul>
-<li>Gesuche oder Angebote von Tieren</li>
-<li>Gesuche oder Angebote von Waffen</li>
-<li>Parteiwerbung</li>
-<li>Spendenaufrufe, außer wenn mit dem Team abgesprochen</li>
-<li>Aufforderungen zur Teilnahme an Petitionen (erlaubt sind ausschließlich Petitionen rund um Garten und Umweltschutz)</li>
-<li>Aufrufe zur Teilnahme an externen Gewinnspielen</li>
-</ul></p>
+	<li>beleidigende oder unwahre Inhalte zu veröffentlichen;</li>
+	<li>Spam über das System an andere Nutzer zu versenden;</li>
+	<li>gesetzlich, insbesondere durch das Urheber- und Markenrecht, geschützte Inhalte ohne Berechtigung zu verwenden;</li>
+	<li>wettbewerbswidrige Handlungen vorzunehmen;</li>
+	<li>Ihr Thema mehrfach im Forum einzustellen (Verbot von Doppelpostings);</li>
+	<li>Presseartikel Dritter ohne Zustimmung des Urhebers im Forum zu veröffentlichen;</li>
+	<li>Werbung im Forum ohne ausdrückliche schriftliche Genehmigung durch den Anbieter zu betreiben. Dies gilt auch für sog. Schleichwerbung wie insbesondere das Verlinken der eigenen Homepage mit oder ohne Beitext in der Signatur oder innerhalb von Beiträgen. Homepage-URLs und Adress- bzw. Kontaktdaten dürfen nur im Benutzer-Profil des Forums veröffentlicht werden.</li>
+</ul>
 
-<p>Jegliche Inhalte, egal ob erstellt oder hochgeladen, können von unserem Team überprüft werden. Erstelle keine Inhalte oder Informationen, bei denen du Bedenken hast, dass sie privat oder vertraulich sind.</p>
+<p>2. Als Nutzer verpflichten Sie sich, vor der Veröffentlichung Ihrer Beiträge und Themen diese daraufhin zu überprüfen, ob diese Angaben enthalten, die Sie nicht veröffentlichen möchten. Ihre Beiträge und Themen können in Suchmaschinen erfasst und damit weltweit zugreifbar werden. Ein Anspruch auf Löschung oder Korrektur solcher Suchmaschineneinträge gegenüber dem Anbieter ist ausgeschlossen.</p>
 
-<p>Wir behalten uns das Recht vor, jeglichen Beitrag, ohne Angabe von Gründen, zu bearbeiten oder zu löschen. Es liegt in unserer Entscheidung, ob wir Bitten um die Bearbeitung oder Löschung von Beiträgen nachkommen. Wir behalten uns ebenfalls das Recht vor, bei Vorliegen von Verstößen Maßnahmen gegen Benutzerkonten durchzuführen.</p>
+<p>3. Beim Verstoß, insbesondere gegen die zuvor genannten Regeln § 3 Abs. 1 und 2, kann der Anbieter unabhängig von einer Kündigung, auch die folgenden Sanktionen gegen den Nutzer verhängen:</p>
 
-<p>Du erteilst uns ein nicht exklusives, permanentes, unwiderrufliches, und unbegrenztes Nutzungsrecht für die Inhalte, die du im Zusammenhang mit dieser Seite erstellen wirst oder erstellt hast. Dies beinhaltet sowohl die Veröffentlichung als auch eine Neu-Veröffentlichung. Du behältst dabei das vollständige Urheberrecht an deinen Inhalten.</p>
+<ul>
+	<li>Löschung oder Abänderung von Inhalten, die der Nutzer eingestellt hat,</li>
+	<li>Ausspruch einer Abmahnung oder</li>
+	<li>Sperrung des Zugangs zum Forum.</li>
+</ul>
 
-<p>Wir behalten uns vor, die Nutzungsbedingungen zu einem späteren Zeitpunkt anzupassen.</p>
+<p>4. Sollten Dritte oder andere Nutzer den Anbieter wegen möglicher Rechtsverstöße in Anspruch nehmen, die a) aus den von Ihnen als Nutzer eingestellten Inhalten resultieren und/oder b) aus der Nutzung der Dienste des Anbieters durch Sie als Nutzer entstehen, verpflichten Sie sich als Nutzer, den Anbieter von jeglichen Ansprüchen, einschließlich Schadensersatzansprüchen, freizustellen und dem Anbieter die Kosten zu ersetzen, die diesem wegen der möglichen Rechtsverletzung entstehen. Der Anbieter wird insbesondere von den Kosten der notwendigen Rechtsverteidigung freigestellt. Der Anbieter ist berechtigt, hierfür von Ihnen als Nutzer einen angemessenen Vorschuss zu fordern. Als Nutzer sind Sie verpflichtet, den Anbieter nach Treu und Glauben mit Informationen und Unterlagen bei der Rechtsverteidigung gegenüber Dritten zu unterstützen. Alle weitergehenden Rechte sowie Schadensersatzansprüche des Anbieters bleiben unberührt. Wenn Sie als Nutzer die mögliche Rechtsverletzung nicht zu vertreten haben, bestehen die zuvor genannten Pflichten nicht. </p>
 
-<p>Wenn du diesen Nutzungsbedingungen nicht zustimmst, registriere dich bitte nicht auf dieser Seite. Wenn du dein Benutzerkonto schließen möchtest, <a href="{contactUrl}">kontaktiere uns</a> bitte.</p>]]></phrase>
+<p><strong>§ 4 Übertragung von Nutzungsrechten</strong></p>
+
+<p>1. Das Urheberrecht für Ihre Themen und Beiträge, soweit diese urheberrechtsschutzfähig sind, verbleibt grundsätzlich bei Ihnen als Nutzer. Sie räumen dem Anbieter jedoch mit Einstellung eines Themas oder Beitrags das Recht ein, das Thema oder den Beitrag dauerhaft auf seinen Webseiten vorzuhalten. Zudem hat der Anbieter das Recht, Ihre Themen und Beiträge zu löschen, zu bearbeiten, zu verschieben oder zu schließen.</p>
+
+<p>2. Die zuvor genannten Nutzungsrechte bleiben auch im Falle einer Kündigung des Foren-Accounts bestehen. </p>
+
+<p><strong>§ 5 Haftungsbeschränkung</strong></p>
+
+<p>1. Der Anbieter des Forums übernimmt keinerlei Gewähr für die im Forum veröffentlichten und eingestellten Beiträge, Themen, externen Links und die daraus resultierenden Inhalte, insbesondere nicht für deren Richtigkeit, Vollständigkeit und Aktualität. Wir sind auch nicht verpflichtet, permanent die übermittelten und gespeicherten Beiträge der Nutzer/Nutzerinnen zu überwachen oder nach den Umständen zu erforschen, ob sie auf einen rechtswidrigen Inhalt hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</p>
+
+<p>2. Der Anbieter haftet für Vorsatz und grobe Fahrlässigkeit sowie bei Verletzung einer wesentlichen Vertragspflicht. Wesentliche Vertragspflichten sind solche, deren Erfüllung die ordnungsgemäße Durchführung des Vertrags überhaupt erst ermöglicht und auf deren Einhaltung der Vertragspartner regelmäßig vertrauen darf. Der Anbieter haftet unter Begrenzung auf Ersatz des bei Vertragsschluss vorhersehbaren vertragstypischen Schadens für solche Schäden, die auf einer leicht fahrlässigen Verletzung von wesentlichen Vertragspflichten durch ihn oder eines seiner gesetzlichen Vertreter oder Erfüllungsgehilfen beruhen. Bei leicht fahrlässiger Verletzung von Nebenpflichten, die keine wesentlichen Vertragspflichten sind, haftet der Anbieter nicht. Die Haftung für Schäden, die in den Schutzbereich einer vom Anbieter gegebenen Garantie oder Zusicherung fallen sowie die Haftung für Ansprüche aufgrund des Produkthaftungsgesetzes und Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit bleibt hiervon unberührt.</p>
+
+<p><strong>§ 6 Laufzeit / Beendigung des Vertrags</strong></p>
+
+<p>1. Diese Vereinbarung wird auf unbestimmte Zeit geschlossen.</p>
+
+<p>2. Beide Parteien können diese Vereinbarung ohne Einhaltung einer Frist kündigen.</p>
+
+<p>3. Wenn der Nutzer seinen Account löscht bzw. löschen lässt (Kündigung des Vertrags), bleiben seine öffentlichen Äußerungen, insbesondere Beiträge im Forum, weiterhin für alle Leser sichtbar, der Account ist jedoch nicht mehr abrufbar und im Forum mit „Gast“ gekennzeichnet. Alle anderen Daten werden gelöscht. Wenn der Nutzer wünscht, dass auch seine öffentlichen Beiträge gelöscht werden, möge er dies beim Löschwunsch dem Anbieter mitteilen.</p>
+
+<p>
+		Quelle: <a href="https://www.juraforum.de/muster-nutzungsbedingungen-forum/" title="Forenregeln" target="_blank" rel="noopener">Forenregeln Muster</a> von <a href="https://www.juraforum.de/" title="Juraforum" target="_blank" rel="noopener">Juraforum.de</a>
+	(bearbeitet und ergänzt)
+</p>]]></phrase>
   <phrase title="terrible" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Schrecklich]]></phrase>
   <phrase title="test" addon_id="XF" version_id="1000015" version_string="1.0.0 Alpha 5"><![CDATA[Test]]></phrase>
   <phrase title="test_email_sent_to_x" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Test-E-Mail an {email} gesendet.]]></phrase>
@@ -8670,27 +8721,27 @@ Wenn du das ausgeführt hast, musst du den QR-Code unten in die App einscannen u
   <phrase title="trim_line_breaks_after" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Trimmen von Zeilenumbrüchen nach]]></phrase>
   <phrase title="trophies" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Erfolge]]></phrase>
   <phrase title="trophies_awarded_to_x" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Erfolge vergeben an {name}]]></phrase>
-  <phrase title="trophy_description.1" addon_id="" version_id="0" version_string=""><![CDATA[Post a message somewhere on the site to receive this.]]></phrase>
-  <phrase title="trophy_description.2" addon_id="" version_id="0" version_string=""><![CDATA[30 messages posted. You must like it here!]]></phrase>
-  <phrase title="trophy_description.3" addon_id="" version_id="0" version_string=""><![CDATA[You've posted 100 messages. I hope this took you more than a day!]]></phrase>
-  <phrase title="trophy_description.4" addon_id="" version_id="0" version_string=""><![CDATA[1,000 messages? Impressive!]]></phrase>
-  <phrase title="trophy_description.5" addon_id="" version_id="0" version_string=""><![CDATA[Somebody out there reacted positively to one of your messages. Keep posting like that for more!]]></phrase>
-  <phrase title="trophy_description.6" addon_id="" version_id="0" version_string=""><![CDATA[Your messages have been positively reacted to 25 times.]]></phrase>
-  <phrase title="trophy_description.7" addon_id="" version_id="0" version_string=""><![CDATA[Content you have posted has attracted a positive reaction score of 100.]]></phrase>
-  <phrase title="trophy_description.8" addon_id="" version_id="0" version_string=""><![CDATA[Your content has been positively reacted to 250 times.]]></phrase>
-  <phrase title="trophy_description.9" addon_id="" version_id="0" version_string=""><![CDATA[Content you have posted has attracted 500 positive reactions.]]></phrase>
+  <phrase title="trophy_description.1" addon_id="" version_id="0" version_string=""><![CDATA[Poste deinen ersten Beitrag auf dev-community.de, um diese Errungenschaft zu erreichen.]]></phrase>
+  <phrase title="trophy_description.2" addon_id="" version_id="0" version_string=""><![CDATA[Du hast bereits 30 Beiträge gepostet. Dir scheint es hier zu gefallen!]]></phrase>
+  <phrase title="trophy_description.3" addon_id="" version_id="0" version_string=""><![CDATA[Du hast bereits 100 Beiträge gepostet. Hoffentlich hast du die nicht alle an einem Tag geschrieben!]]></phrase>
+  <phrase title="trophy_description.4" addon_id="" version_id="0" version_string=""><![CDATA[1.000 Beiträge? Beeindruckend!]]></phrase>
+  <phrase title="trophy_description.5" addon_id="" version_id="0" version_string=""><![CDATA[Jemand hat positiv auf einen deiner Beiträge reagiert. Weiter so!]]></phrase>
+  <phrase title="trophy_description.6" addon_id="" version_id="0" version_string=""><![CDATA[Du hast bereits 25 positive Reaktionen auf deine Beiträge erhalten.]]></phrase>
+  <phrase title="trophy_description.7" addon_id="" version_id="0" version_string=""><![CDATA[Du hast schon 100 positive Reaktionen auf deine Beiträge erhalten. Die Leute scheinen dich zu mögen!]]></phrase>
+  <phrase title="trophy_description.8" addon_id="" version_id="0" version_string=""><![CDATA[Du hast schon 250 positive Reaktionen auf deine Beiträge erhalten.]]></phrase>
+  <phrase title="trophy_description.9" addon_id="" version_id="0" version_string=""><![CDATA[Deine Beiträge haben bereits 500 positive Reaktionen verursacht.]]></phrase>
   <phrase title="trophy_options" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Einstellungen für das Erfolgssystem]]></phrase>
   <phrase title="trophy_points" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Erfolgspunkte]]></phrase>
   <phrase title="trophy_points_between" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Erfolgspunkte zwischen]]></phrase>
-  <phrase title="trophy_title.1" addon_id="" version_id="0" version_string=""><![CDATA[First message]]></phrase>
-  <phrase title="trophy_title.2" addon_id="" version_id="0" version_string=""><![CDATA[Keeps coming back]]></phrase>
-  <phrase title="trophy_title.3" addon_id="" version_id="0" version_string=""><![CDATA[Can't stop!]]></phrase>
-  <phrase title="trophy_title.4" addon_id="" version_id="0" version_string=""><![CDATA[Addicted]]></phrase>
-  <phrase title="trophy_title.5" addon_id="" version_id="0" version_string=""><![CDATA[Somebody likes you]]></phrase>
-  <phrase title="trophy_title.6" addon_id="" version_id="0" version_string=""><![CDATA[I like it a lot]]></phrase>
-  <phrase title="trophy_title.7" addon_id="" version_id="0" version_string=""><![CDATA[Seriously likeable!]]></phrase>
-  <phrase title="trophy_title.8" addon_id="" version_id="0" version_string=""><![CDATA[Can't get enough of your stuff]]></phrase>
-  <phrase title="trophy_title.9" addon_id="" version_id="0" version_string=""><![CDATA[I LOVE IT!]]></phrase>
+  <phrase title="trophy_title.1" addon_id="" version_id="0" version_string=""><![CDATA[Erster Beitrag]]></phrase>
+  <phrase title="trophy_title.2" addon_id="" version_id="0" version_string=""><![CDATA[Du kommst immer wieder zurück]]></phrase>
+  <phrase title="trophy_title.3" addon_id="" version_id="0" version_string=""><![CDATA[Du kannst gar nicht mehr aufhören]]></phrase>
+  <phrase title="trophy_title.4" addon_id="" version_id="0" version_string=""><![CDATA[Schon der Sucht verfallen?!]]></phrase>
+  <phrase title="trophy_title.5" addon_id="" version_id="0" version_string=""><![CDATA[Jemand mag deinen Beitrag]]></phrase>
+  <phrase title="trophy_title.6" addon_id="" version_id="0" version_string=""><![CDATA[Deine Beiträge sind beliebt]]></phrase>
+  <phrase title="trophy_title.7" addon_id="" version_id="0" version_string=""><![CDATA[Du bist wirklich beliebt!]]></phrase>
+  <phrase title="trophy_title.8" addon_id="" version_id="0" version_string=""><![CDATA[Die Leute bekommen nicht genug von dir]]></phrase>
+  <phrase title="trophy_title.9" addon_id="" version_id="0" version_string=""><![CDATA[Sie lieben dich!]]></phrase>
   <phrase title="trust_device_desc" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Wenn diese Einstellung ausgewählt ist, musst du die zweistufige Anmeldung von diesem Geräts für die nächsten 30 Tage nicht durchführen.]]></phrase>
   <phrase title="trust_this_device_for_30_days" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Vertraue diesem Gerät 30 Tage lang.]]></phrase>
   <phrase title="trusted_devices" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Vertrauenswürdige Geräte]]></phrase>
@@ -8903,10 +8954,14 @@ Wähle unten die zu installierenden Updates aus. Die ausgewählten Updates werde
   <phrase title="user_editable" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Benutzer editierbar]]></phrase>
   <phrase title="user_email_confirmation_body_html" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[<p>{username}, um deine Registrierung abzuschließen oder dein Konto bei {board} zu reaktivieren, musst du deine E-Mail-Adresse bestätigen, indem du auf die Schaltfläche unten klickst.</p>]]></phrase>
   <phrase title="user_email_confirmation_subject" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[{boardTitle} - Kontobestätigung erforderlich]]></phrase>
+  <phrase title="user_field_desc.email" addon_id="" version_id="0" version_string=""><![CDATA[]]></phrase>
   <phrase title="user_field_desc.facebook" addon_id="" version_id="0" version_string=""><![CDATA[]]></phrase>
+  <phrase title="user_field_desc.github" addon_id="" version_id="0" version_string=""><![CDATA[]]></phrase>
   <phrase title="user_field_desc.skype" addon_id="" version_id="0" version_string=""><![CDATA[]]></phrase>
   <phrase title="user_field_desc.twitter" addon_id="" version_id="0" version_string=""><![CDATA[]]></phrase>
+  <phrase title="user_field_title.email" addon_id="" version_id="0" version_string=""><![CDATA[E-Mail]]></phrase>
   <phrase title="user_field_title.facebook" addon_id="" version_id="0" version_string=""><![CDATA[Facebook]]></phrase>
+  <phrase title="user_field_title.github" addon_id="" version_id="0" version_string=""><![CDATA[GitHub]]></phrase>
   <phrase title="user_field_title.skype" addon_id="" version_id="0" version_string=""><![CDATA[Skype]]></phrase>
   <phrase title="user_field_title.twitter" addon_id="" version_id="0" version_string=""><![CDATA[Twitter]]></phrase>
   <phrase title="user_group" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Benutzergruppe]]></phrase>
