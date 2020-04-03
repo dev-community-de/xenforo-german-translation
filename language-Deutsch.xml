@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<language title="Deutsch" date_format="d.m.Y" time_format="H:i" currency_format="{symbol}{value}" week_start="0" decimal_point="," thousands_separator="." label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="de-DE" text_direction="LTR" base_version_id="2010770" export_version="2">
+<language title="Deutsch" date_format="d.m.Y" time_format="H:i" currency_format="{symbol}{value}" week_start="0" decimal_point="," thousands_separator="." label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="de-DE" text_direction="LTR" base_version_id="2010872" export_version="2">
   <phrase title="1_day_ago" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Vor einem Tag]]></phrase>
   <phrase title="1_month_ago" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Vor einem Monat]]></phrase>
   <phrase title="1_time" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[einmal]]></phrase>
@@ -932,7 +932,6 @@ Sollte ein Ereignis mit einem Hinweis ausgelöst werden, wird der mögliche Hinw
   <phrase title="code_language.xml" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[XML]]></phrase>
   <phrase title="code_language.yaml" addon_id="XF" version_id="2000270" version_string="2.0.2"><![CDATA[YAML]]></phrase>
   <phrase title="code_listeners_extensions_disabled_warning" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Code-Event-Listener und -Erweiterungen wurden über config.php deaktiviert. Dies ist als Notfallmaßnahme konzipiert, um dir den Zugang zum Control Panel wieder zu ermöglichen, wenn ein Add-on den Zugriff blockiert und deaktiviert. Dies sollte nicht als Debugging-Tool verwendet werden.]]></phrase>
-  <phrase title="collecting_server_stats" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Sammeln von Serverstatistiken]]></phrase>
   <phrase title="color" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Farbe]]></phrase>
   <phrase title="column" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Spalte]]></phrase>
   <phrase title="comma_separator" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Dezimaltrennzeichen]]></phrase>
@@ -1078,7 +1077,7 @@ Wenn du dich weiterhin auf dieser Seite aufhältst, akzeptierst du unseren Einsa
   <phrase title="cost" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Kosten]]></phrase>
   <phrase title="cost_currency_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[<strong>Hinweis:</strong> Stelle sicher, dass dein Händlerkonto mit den ausgewählten Zahlungsprofilen die oben genannten Währungen unterstützt. Die Währungsunterstützung kann je nach Region variieren.]]></phrase>
   <phrase title="could_not_create_new_stripe_plan" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Konnte keinen neuen Stripe Plan erstellen.]]></phrase>
-  <phrase title="could_not_find_subscriber_id_for_this_purchase_request" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Es wurde keine Abonnenten-ID für diese Kaufanfrage gefunden.]]></phrase>
+  <phrase title="could_not_find_subscriber_id_for_this_purchase_request" addon_id="XF" version_id="2010872" version_string="2.1.8 Patch 2"><![CDATA[Es wurde keine Abonnenten-ID für diese Kaufanfrage gefunden.]]></phrase>
   <phrase title="could_not_open_x" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[{fileName} konnte nicht geöffnet werden.]]></phrase>
   <phrase title="could_not_process_x_y" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[{fileName} konnte nicht verarbeitet werden: {errors}]]></phrase>
   <phrase title="count_messages_in_forum_toward_user_total" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Berücksichtige die in diesem Forum geschriebenen Beiträge bei der Beitragszahl der Benutzer]]></phrase>
@@ -1380,7 +1379,6 @@ Wenn du dich weiterhin auf dieser Seite aufhältst, akzeptierst du unseren Einsa
   <phrase title="details_of_warning" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Details der Verwarnung]]></phrase>
   <phrase title="developer" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Entwickler]]></phrase>
   <phrase title="development_mode_is_enabled_and_dev_output_is_available" addon_id="XF" version_id="2010470" version_string="2.1.4"><![CDATA[Der Entwicklungsmodus ist aktiviert und eine Entwicklungsausgabe ist verfügbar. Wenn die Add-on-Daten nicht kürzlich exportiert wurden, sind sie möglicherweise veraltet, und diese Aktion kann zu Datenverlust führen. Ziehe in Betracht, zuerst zu exportieren oder einen CLI-Befehl zu verwenden.]]></phrase>
-  <phrase title="development_output_is_available_import_data_from_output_directory" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Entwicklungsausgabe ist verfügbar, Daten aus dem Verzeichnis _output importieren?]]></phrase>
   <phrase title="device_trusted_until_x_disable_desc" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Dieses Gerät wird derzeit bis {until} als vertrauenswürdig eingestuft. Bis dahin musst du keine zweistufige Anmeldung von diesem Gerät aus durchführen. Du kannst das Vertrauen in dieses Gerät beenden, so dass du beim nächsten Einloggen aufgefordert wirst, die zweistufige Anmeldung abzuschließen.]]></phrase>
   <phrase title="did_not_complete_the_captcha_verification_properly" addon_id="XF" version_id="0" version_string=""><![CDATA[Du hast die CAPTCHA-Prüfung nicht ordnungsgemäß abgeschlossen. Bitte versuche es erneut.]]></phrase>
   <phrase title="directory_specified_as_x_y_not_found_is_not_readable" addon_id="XF" version_id="2000053" version_string="2.0.0 Release Candidate 3"><![CDATA[Das Verzeichnis, das als <i>{type}</i> angegeben ist: <code><b>{dir}</b></code> konnte nicht gefunden werden oder ist nicht lesbar.]]></phrase>
@@ -4457,8 +4455,6 @@ Dein Callback sollte einen HTML-String zurückliefern und eine Signatur wie folg
   <phrase title="enable_alerts" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Hinweise aktivieren]]></phrase>
   <phrase title="enable_apple_pay_support" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Apple Pay-Unterstützung aktivieren]]></phrase>
   <phrase title="enable_apple_pay_support_braintree_explain" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Erfordert einen Apple Developer-Account und zusätzliche Einstellungen in deinem Braintree Dashboard.]]></phrase>
-  <phrase title="enable_apple_pay_support_stripe_explain" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Erfordert eine Domain-Bestätigung über die Seite <a href="https://dashboard.stripe.com/account/apple_pay" target="_blank">Apple Pay page</a> in deinem Stripe-Dashboard.]]></phrase>
-  <phrase title="enable_automated_bounced_email_handler" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Automatische Behandlung von zurückgewiesenen E-Mails aktivieren]]></phrase>
   <phrase title="enable_automated_email_handler" addon_id="XF" version_id="2010571" version_string="2.1.5"><![CDATA[Automatische Behandlung von E-Mails aktivieren]]></phrase>
   <phrase title="enable_cache_and_cache_for_x_minutes" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Aktivieren von Cache und Cache für X Minuten]]></phrase>
   <phrase title="enable_callback_execution" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Aktivieren der Callback-Ausführung]]></phrase>
@@ -4883,7 +4879,6 @@ Wenn aktiviert, können Benutzer zusätzlich zu einer gültigen Kreditkarte mit 
   <phrase title="import_attachments_path" addon_id="XF" version_id="2010170" version_string="2.1.1"><![CDATA[Pfad zum Verzeichnis der Anhänge]]></phrase>
   <phrase title="import_complete" addon_id="XF" version_id="2000036" version_string="2.0.0 Beta 6"><![CDATA[Import abgeschlossen!]]></phrase>
   <phrase title="import_data" addon_id="XF" version_id="2000036" version_string="2.0.0 Beta 6"><![CDATA[Daten importieren]]></phrase>
-  <phrase title="import_forums_only" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Nur Foren importieren]]></phrase>
   <phrase title="import_from" addon_id="XF" version_id="2000036" version_string="2.0.0 Beta 6"><![CDATA[Importieren aus]]></phrase>
   <phrase title="import_from_directory_on_server" addon_id="XF" version_id="1030010" version_string="1.3.0 Alpha"><![CDATA[Import aus einem Verzeichnis auf deinem Server]]></phrase>
   <phrase title="import_from_import_generated_xml" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Importiere Smileys aus XML, die von einem Datenimport-System generiert wurden.]]></phrase>
@@ -5004,8 +4999,6 @@ Verschiedene Verzeichnisse müssen beschreibbar sein, um aus einem Archiv instal
   <phrase title="it_is_not_possible_to_delete_default_reaction" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Es ist nicht möglich, die Standard-Reaktion zu löschen.]]></phrase>
   <phrase title="it_is_not_possible_to_delete_last_language" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Es ist nicht möglich, die letzte Sprache zu löschen.]]></phrase>
   <phrase title="it_is_not_possible_to_disable_default_reaction" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Es ist nicht möglich, die Standard-Reaktion zu deaktivieren. ]]></phrase>
-  <phrase title="it_is_not_possible_to_disable_this_add_on" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Es ist nicht möglich, dieses Add-On zu deaktivieren.]]></phrase>
-  <phrase title="it_is_not_possible_to_enable_this_add_on" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Es ist nicht möglich, dieses Add-On zu aktivieren.]]></phrase>
   <phrase title="it_is_not_possible_to_export_default_reaction" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Es ist nicht möglich, die Standard-Reaktion zu exportieren. ]]></phrase>
   <phrase title="it_is_not_possible_to_move_any_of_selected_posts_to_specified_target" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Es ist nicht möglich, einen der ausgewählten Beiträge in das angegebene Ziel zu verschieben.]]></phrase>
   <phrase title="it_is_not_possible_to_prevent_users_selecting_the_default_style" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Es ist nicht möglich, Benutzer an der Auswahl des Standard-Styles zu hindern.]]></phrase>
@@ -5335,6 +5328,7 @@ Beispiel für reguläre Ausdrücke mit 'id' benanntem Sub-Muster:<br />
   <phrase title="medium_toolbar" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Mittelbreite Toolbar]]></phrase>
   <phrase title="medium_toolbar_desc" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Für mittelbreite Geräte (>= 992px)]]></phrase>
   <phrase title="member" addon_id="XF" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Mitglied]]></phrase>
+  <phrase title="member_is_following" addon_id="XF" version_id="2010870" version_string="2.1.8"><![CDATA[Following]]></phrase>
   <phrase title="member_limits_viewing_profile" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Dieses Mitglied schränkt ein wer das vollständige Profil sehen kann.]]></phrase>
   <phrase title="member_notification" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Mitgliederbenachrichtigung]]></phrase>
   <phrase title="member_of_any_of_these_secondary_groups" addon_id="XF" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Mitglied einer dieser sekundären Gruppen]]></phrase>
@@ -5417,6 +5411,7 @@ Der Callback sollte entweder ein Array oder nichts zurückgeben. Wenn nichts zur
   <phrase title="missing_files" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Fehlende Dateien]]></phrase>
   <phrase title="mixed" addon_id="XF" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[Gemischt]]></phrase>
   <phrase title="mod_log.post_approve" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Beitrag freigeschaltet]]></phrase>
+  <phrase title="mod_log.post_attachment_deleted" addon_id="XF" version_id="2010870" version_string="2.1.8"><![CDATA[Post attachment deleted]]></phrase>
   <phrase title="mod_log.post_delete_hard" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Beitrag dauerhaft gelöscht]]></phrase>
   <phrase title="mod_log.post_delete_soft" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Beitrag wurde gelöscht (Grund: {reason})]]></phrase>
   <phrase title="mod_log.post_edit" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Beitrag bearbeitet]]></phrase>
@@ -5464,12 +5459,14 @@ Der Callback sollte entweder ein Array oder nichts zurückgeben. Wenn nichts zur
   <phrase title="mod_log.resource_undelete" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Ressource wiederhergestellt]]></phrase>
   <phrase title="mod_log.resource_unfeature" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Ressource nicht mehr empfohlen]]></phrase>
   <phrase title="mod_log.resource_update_approve" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Aktualisierung Ressource freigeschaltet]]></phrase>
+  <phrase title="mod_log.resource_update_attachment_deleted" addon_id="XFRM" version_id="2010670" version_string="2.1.6"><![CDATA[Resource update attachment deleted]]></phrase>
   <phrase title="mod_log.resource_update_delete_hard" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Aktualisierung Ressource dauerhaft gelöscht]]></phrase>
   <phrase title="mod_log.resource_update_delete_soft" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Aktualisierung Ressource gelöscht (Grund: {reason})]]></phrase>
   <phrase title="mod_log.resource_update_edit" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Aktualisierung Ressource bearbeitet]]></phrase>
   <phrase title="mod_log.resource_update_unapprove" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Aktualisierung Ressource nicht freigeschaltet]]></phrase>
   <phrase title="mod_log.resource_update_undelete" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Aktualisierung Ressource wiederhergestellt]]></phrase>
   <phrase title="mod_log.resource_version_approve" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Version Ressource freigeschaltet]]></phrase>
+  <phrase title="mod_log.resource_version_attachment_deleted" addon_id="XFRM" version_id="2010670" version_string="2.1.6"><![CDATA[Resource version attachment deleted]]></phrase>
   <phrase title="mod_log.resource_version_delete_hard" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Version Ressource dauerhaft gelöscht]]></phrase>
   <phrase title="mod_log.resource_version_delete_soft" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Version Ressource gelöscht (Grund: {reason})]]></phrase>
   <phrase title="mod_log.resource_version_edit" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Version Ressource bearbeitet]]></phrase>
@@ -5592,7 +5589,6 @@ Der Callback sollte entweder ein Array oder nichts zurückgeben. Wenn nichts zur
   <phrase title="mysql_version_x_does_not_meet_requirements" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[MySQL 5.5 oder neuer ist erforderlich. {version} erfüllt diese Anforderung nicht. Bitte den Server-Provider darum, MySQL zu aktualisieren.]]></phrase>
   <phrase title="n_a" addon_id="XF" version_id="1000015" version_string="1.0.0 Alpha 5"><![CDATA[N/A]]></phrase>
   <phrase title="name" addon_id="XF" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Name]]></phrase>
-  <phrase title="name_db_table_which_hold_information_about_import" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Dies ist der Name der Datenbanktabelle, die Informationen zu diesem Import enthält. Sie kann zur Unterstützung von URL-Weiterleitungen verwendet werden. Diese Tabelle muss leer sein oder darf nicht existieren. Verwende nur a-z, 0-9 und Unterstriche.]]></phrase>
   <phrase title="name_of_argument" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Name des Arguments]]></phrase>
   <phrase title="named_template" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Benannte Vorlage]]></phrase>
   <phrase title="names_and_surnames_by_themselves_easy_to_guess" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Namen und Nachnamen sind leicht zu erraten.]]></phrase>
@@ -7157,7 +7153,6 @@ Callback-Argumente:
 <br />
 <strong>Hinweis:</strong> Du musst beim Erstellen der Schlüssel "reCAPTCHA v2" als Typ auswählen. Du musst auch deinen eigenen API-Schlüssel verwenden, den Typ auf "Invisible reCAPTCHA badge" setzen und explizit den unsichtbaren Modus aktivieren, wenn du "invisible reCAPTCHA" verwenden möchtest.]]></phrase>
   <phrase title="receipt_for_your_account_upgrade_at_x" addon_id="XF" version_id="2010571" version_string="2.1.5"><![CDATA[Beleg für dein Account-Upgrade bei {board_title}]]></phrase>
-  <phrase title="receive_alert_when_someone" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Erhalte eine Benachrichtigung, wenn jemand]]></phrase>
   <phrase title="receive_email_when_new_conversation_message_is_received" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Ich akzeptiere die Zusendung von E-Mails bei Aktualisierungen von Unterhaltungen.]]></phrase>
   <phrase title="receive_notification_when_someone" addon_id="XF" version_id="2010470" version_string="2.1.4"><![CDATA[Erhalte einen Hinweis wenn jemand]]></phrase>
   <phrase title="receive_push_notification_when_new_conversation_message_is_received" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Erhalte eine Push-Benachrichtigung bei einer Nachricht in einer Unterhaltung]]></phrase>
@@ -7206,7 +7201,6 @@ Callback-Argumente:
   <phrase title="regular_expression_matching" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Vergleich von regulären Ausdrücken]]></phrase>
   <phrase title="reject" addon_id="XF" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Ablehnen]]></phrase>
   <phrase title="reject_with_reason" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Abgelehnt mit Grund]]></phrase>
-  <phrase title="reject_with_rejection_reason" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Abgelehnt mit folgendem Grund]]></phrase>
   <phrase title="rejected" addon_id="XF" version_id="0" version_string=""><![CDATA[Abgelehnt]]></phrase>
   <phrase title="rejected_by" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Abgelehnt von]]></phrase>
   <phrase title="rejected_user" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Abgelehnter Benutzer]]></phrase>
@@ -7227,7 +7221,6 @@ Callback-Argumente:
   <phrase title="remove_table" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Tabelle entfernen]]></phrase>
   <phrase title="remove_this_filter" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Entferne diesen Filter]]></phrase>
   <phrase title="remove_websites" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Websites entfernen]]></phrase>
-  <phrase title="removed_from_public_view" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Gelöscht]]></phrase>
   <phrase title="removing_reactions" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Reaktionen entfernen]]></phrase>
   <phrase title="rename_this_user_to" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Umbenennen Benutzer]]></phrase>
   <phrase title="reopen_via_admin_control_panel" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Wieder öffnen über das Admin-Control-Panel]]></phrase>
@@ -7397,7 +7390,6 @@ Inhalt wird gemeldet:
   <phrase title="scrolling" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Scrollbar]]></phrase>
   <phrase title="search" addon_id="XF" version_id="1000015" version_string="1.0.0 Alpha 5"><![CDATA[Suche]]></phrase>
   <phrase title="search_by_ip_address" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Suche nach IP-Adresse]]></phrase>
-  <phrase title="search_child_forums_as_well" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Suche auch in Unterforen]]></phrase>
   <phrase title="search_could_not_be_completed_because_search_keywords_were_too" addon_id="XF" version_id="0" version_string=""><![CDATA[Die Suche konnte nicht abgeschlossen werden, weil die Suchbegriffe zu kurz, zu lang oder zu häufig waren.]]></phrase>
   <phrase title="search_everything" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Alles durchsuchen]]></phrase>
   <phrase title="search_for_users" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Suche nach Benutzern]]></phrase>
@@ -7455,7 +7447,6 @@ Inhalt wird gemeldet:
   <phrase title="server_did_not_respond_in_time_try_again" addon_id="XF" version_id="1000034" version_string="1.0.0 Beta 4"><![CDATA[Der Server hat nicht rechtzeitig geantwortet. Bitte versuche es erneut.]]></phrase>
   <phrase title="server_environment_report" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Bericht Serverumgebung]]></phrase>
   <phrase title="server_error_log" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Server-Fehlerprotokoll]]></phrase>
-  <phrase title="server_error_logs" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Server-Fehlerprotokolle]]></phrase>
   <phrase title="server_error_occurred" addon_id="XF" version_id="1000013" version_string="1.0.0 Alpha 3"><![CDATA[Ein Serverfehler ist aufgetreten. Bitte versuche es später noch einmal.]]></phrase>
   <phrase title="server_errors_have_been_logged" addon_id="XF" version_id="1020010" version_string="1.2.0 Alpha"><![CDATA[Serverfehler wurden protokolliert. Du solltest dir diese ansehen.]]></phrase>
   <phrase title="server_software" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Server-Software]]></phrase>
@@ -7466,7 +7457,6 @@ Inhalt wird gemeldet:
   <phrase title="set_permissions_for_user" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Berechtigungen für Benutzer festlegen]]></phrase>
   <phrase title="set_prefix" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Setzen eines Präfixes]]></phrase>
   <phrase title="set_primary_user_group" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Primäre Benutzergruppe setzen]]></phrase>
-  <phrase title="set_return_path_with_f_parameter" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Rückgabepfad mit dem Parameter -f setzen (empfohlen, funktioniert jedoch nicht auf allen Servern)]]></phrase>
   <phrase title="set_thread_status" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Themen-Status setzen]]></phrase>
   <phrase title="settings" addon_id="XF" version_id="1000011" version_string="1.0.0 Alpha 1"><![CDATA[Einstellungen]]></phrase>
   <phrase title="setup" addon_id="XF" version_id="1050010" version_string="1.5.0 Alpha"><![CDATA[Einrichtung]]></phrase>
@@ -7645,9 +7635,7 @@ Inhalt wird gemeldet:
   <phrase title="sticky" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Angeheftet]]></phrase>
   <phrase title="sticky_threads_appear_at_top_of_first_page_of_list_of_threads" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Angeheftete Themen erscheinen oben als "angeheftet" auf der ersten Seite der Liste der Themen in ihrem übergeordneten Forum.]]></phrase>
   <phrase title="stop" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Stopp]]></phrase>
-  <phrase title="stop_all_emails" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Alle E-Mail-Benachrichtigungen abbestellen]]></phrase>
   <phrase title="stop_all_emails_from_x" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Bestelle alle E-Mails von {title} ab]]></phrase>
-  <phrase title="stop_conversation_emails" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[E-Mail-Benachrichtigungen für Unterhaltungen abbestellen]]></phrase>
   <phrase title="stop_email_notifications" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[E-Mail-Benachrichtigungen abbestellen]]></phrase>
   <phrase title="stop_emails" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[E-Mail-Benachrichtigungen abbestellen]]></phrase>
   <phrase title="stop_following" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Nicht mehr folgen]]></phrase>
@@ -7661,7 +7649,6 @@ Inhalt wird gemeldet:
   <phrase title="stop_parsing_bb_code" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[BBCode nicht mehr ausführen]]></phrase>
   <phrase title="stop_trusting_other_devices" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Anderen Geräten nicht mehr vertrauen]]></phrase>
   <phrase title="stop_trusting_this_device" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Diesem Gerät nicht mehr vertrauen]]></phrase>
-  <phrase title="stop_watched_content_emails" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[E-Mail-Benachrichtigungen für beobachtete Inhalte abbestellen]]></phrase>
   <phrase title="stop_watching" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Nicht mehr beobachten]]></phrase>
   <phrase title="stop_watching_forums" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Foren nicht mehr beobachten]]></phrase>
   <phrase title="stop_watching_resources" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Ressourcen nicht mehr beobachten]]></phrase>
@@ -8153,7 +8140,7 @@ Für zusätzliche Sicherheit wird empfohlen, unten dein "Signing secret" einzuge
   <phrase title="style_prop_desc.paletteNeutral3" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[]]></phrase>
   <phrase title="style_prop_desc.profilePostCommentToggle" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Wenn aktiviert, wird die Eingabe für einen Kommentar zu einer Profilnachricht erst angezeigt, nachdem auf den Umschalter geklickt wurde.]]></phrase>
   <phrase title="style_prop_desc.progressBarColor" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Der Fortschrittsbalken erscheint am oberen Rand des Fensters, wenn das System auf eine Antwort des Servers wartet.]]></phrase>
-  <phrase title="style_prop_desc.publicFaviconUrl" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Pfad zum kleinen Logo, das mit Lesezeichen verknüpft ist, die auf deine Website verweisen]]></phrase>
+  <phrase title="style_prop_desc.publicFaviconUrl" addon_id="XF" version_id="2010872" version_string="2.1.8 Patch 2"><![CDATA[Pfad zum kleinen Logo, das mit Lesezeichen verknüpft ist, die auf deine Website verweisen]]></phrase>
   <phrase title="style_prop_desc.publicFooter" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Die Fußzeile ist das primäre Element, das sich unterhalb des Hauptinhalts auf allen öffentlichen Seiten befindet.]]></phrase>
   <phrase title="style_prop_desc.publicFooterLink" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Steuert das Styling für einzelne Links in der Fußzeile.]]></phrase>
   <phrase title="style_prop_desc.publicHeader" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Die Kopfzeile enthält dein Logo und befindet sich oben auf jeder öffentlichen Seite.]]></phrase>
@@ -8636,6 +8623,25 @@ Fehlermeldung: <span class="exceptionMessage">{message}</span>]]></phrase>
   <phrase title="thread_list_date_limit_used_on_busy_forums_to_improve_performance" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Dies kann in belebten Foren verwendet werden, um die Performance zu verbessern, indem standardmäßig nur kürzlich aktualisierte Themen aufgelistet werden.]]></phrase>
   <phrase title="thread_lists" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Themenlisten]]></phrase>
   <phrase title="thread_polls" addon_id="XF" version_id="2000036" version_string="2.0.0 Beta 6"><![CDATA[Themen-Umfragen]]></phrase>
+  <phrase title="thread_prefix.1" addon_id="" version_id="0" version_string=""><![CDATA[Diskussion]]></phrase>
+  <phrase title="thread_prefix.10" addon_id="" version_id="0" version_string=""><![CDATA[CouchDB]]></phrase>
+  <phrase title="thread_prefix.11" addon_id="" version_id="0" version_string=""><![CDATA[Redis]]></phrase>
+  <phrase title="thread_prefix.12" addon_id="" version_id="0" version_string=""><![CDATA[Unreal Engine]]></phrase>
+  <phrase title="thread_prefix.13" addon_id="" version_id="0" version_string=""><![CDATA[Unity]]></phrase>
+  <phrase title="thread_prefix.14" addon_id="" version_id="0" version_string=""><![CDATA[GameMaker Studio]]></phrase>
+  <phrase title="thread_prefix.15" addon_id="" version_id="0" version_string=""><![CDATA[Godot Engine]]></phrase>
+  <phrase title="thread_prefix.2" addon_id="" version_id="0" version_string=""><![CDATA[Xamarin]]></phrase>
+  <phrase title="thread_prefix.3" addon_id="" version_id="0" version_string=""><![CDATA[Flutter]]></phrase>
+  <phrase title="thread_prefix.4" addon_id="" version_id="0" version_string=""><![CDATA[React Native]]></phrase>
+  <phrase title="thread_prefix.5" addon_id="" version_id="0" version_string=""><![CDATA[MariaDB]]></phrase>
+  <phrase title="thread_prefix.6" addon_id="" version_id="0" version_string=""><![CDATA[MySQL]]></phrase>
+  <phrase title="thread_prefix.7" addon_id="" version_id="0" version_string=""><![CDATA[PostgreSQL]]></phrase>
+  <phrase title="thread_prefix.8" addon_id="" version_id="0" version_string=""><![CDATA[SQLite]]></phrase>
+  <phrase title="thread_prefix.9" addon_id="" version_id="0" version_string=""><![CDATA[MongoDB]]></phrase>
+  <phrase title="thread_prefix_group.1" addon_id="" version_id="0" version_string=""><![CDATA[Mobile-App-Frameworks]]></phrase>
+  <phrase title="thread_prefix_group.2" addon_id="" version_id="0" version_string=""><![CDATA[SQL-Datenbanken]]></phrase>
+  <phrase title="thread_prefix_group.3" addon_id="" version_id="0" version_string=""><![CDATA[NoSQL-Datenbanken]]></phrase>
+  <phrase title="thread_prefix_group.4" addon_id="" version_id="0" version_string=""><![CDATA[Game-Engines]]></phrase>
   <phrase title="thread_prefixes" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Themen-Präfixe]]></phrase>
   <phrase title="thread_prompt.default" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Themen-Titel]]></phrase>
   <phrase title="thread_prompts" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Themen-Eingabeaufforderungen]]></phrase>
@@ -8795,7 +8801,6 @@ Andernfalls können wiederkehrende Abonnements nur von deinem <a href="https://w
   <phrase title="unban_users" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Benutzer entsperren]]></phrase>
   <phrase title="undelete" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Wiederherstellen]]></phrase>
   <phrase title="undelete_posts" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Beiträge wiederherstellen]]></phrase>
-  <phrase title="undelete_thread" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Thread wiederherstellen]]></phrase>
   <phrase title="undelete_threads" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Themen wiederherstellen]]></phrase>
   <phrase title="underline" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Unterstrichen]]></phrase>
   <phrase title="undiscourage_users" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Benutzer nicht mehr ausgrenzen]]></phrase>
@@ -8889,11 +8894,11 @@ Wähle unten die zu installierenden Updates aus. Die ausgewählten Updates werde
   <phrase title="upgrading_x_from_y_to_z" addon_id="XF" version_id="2000038" version_string="2.0.0 Beta 8"><![CDATA[Aktualisiert {title} von {old} auf {new}]]></phrase>
   <phrase title="upload" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Hochladen]]></phrase>
   <phrase title="upload_avatar" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Einen Avatar hochladen]]></phrase>
-  <phrase title="upload_completed_successfully" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Upload erfolgreich abgeschlossen]]></phrase>
   <phrase title="upload_image" addon_id="XF" version_id="2000034" version_string="2.0.0 Beta 4"><![CDATA[Bild hochladen]]></phrase>
   <phrase title="upload_new_custom_avatar" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Neuen benutzerdefinierten Avatar hochladen]]></phrase>
   <phrase title="upload_video" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Video hochladen]]></phrase>
   <phrase title="uploaded_file_does_not_have_an_allowed_extension" addon_id="XF" version_id="0" version_string=""><![CDATA[Die hochgeladene Datei hat keine erlaubte Erweiterung.]]></phrase>
+  <phrase title="uploaded_file_does_not_have_an_allowed_extension_allowed_x" addon_id="XF" version_id="2010870" version_string="2.1.8"><![CDATA[The uploaded file does not have an allowed extension. The following extensions are allowed: {allowed}]]></phrase>
   <phrase title="uploaded_file_empty_please_try_a_different_file" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Die hochgeladene Datei scheint leer zu sein. Bitte versuche es mit einer anderen Datei.]]></phrase>
   <phrase title="uploaded_file_failed_cant_write" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Der Upload ist fehlgeschlagen, weil die Datei nicht auf den Server geschrieben werden konnte. Der Seiten-Administrator muss das Problem lösen, bevor Dateien hochgeladen werden können.]]></phrase>
   <phrase title="uploaded_file_failed_extension_stopped_upload" addon_id="XF" version_id="2000032" version_string="2.0.0 Beta 2"><![CDATA[Der Upload ist fehlgeschlagen, weil eine PHP-Erweiterung den Prozess gestoppt hat. Vielleicht noch mal versuchen?]]></phrase>
@@ -8946,7 +8951,7 @@ Wähle unten die zu installierenden Updates aus. Die ausgewählten Updates werde
   <phrase title="user_banner_styling" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Stil Benutzer-Banner]]></phrase>
   <phrase title="user_banner_text" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Text Benutzer-Banner]]></phrase>
   <phrase title="user_birthday_is_today" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Der Geburtstag des Benutzers ist heute]]></phrase>
-  <phrase title="user_change_logs" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Änderungen bei Benutzern]]></phrase>
+  <phrase title="user_change_log" addon_id="XF" version_id="2010870" version_string="2.1.8"><![CDATA[User change log]]></phrase>
   <phrase title="user_criteria" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Benutzerkriterien]]></phrase>
   <phrase title="user_customizations_to_navigation_maintained_addon_upgrade" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Benutzeranpassungen an diesen Navigationseintrag werden bei allen Add-on-Upgrades beibehalten.]]></phrase>
   <phrase title="user_delete_rename_explain" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Wenn du dich dazu entschließt diesen Benutzer umzubenennen, wird der Benutzername in seinen gesamten Inhalten geändert. Dieses Vorgehen unterstützt die Anonymisierung, die im Rahmen des Recht auf Vergessen gemäß der Vorgaben der EU-DSGVO gefordert wird. Der ursprüngliche Benutzername kann allerdings noch in zitierten Inhalten erhalten bleiben.]]></phrase>
@@ -8957,11 +8962,13 @@ Wähle unten die zu installierenden Updates aus. Die ausgewählten Updates werde
   <phrase title="user_field_desc.email" addon_id="" version_id="0" version_string=""><![CDATA[]]></phrase>
   <phrase title="user_field_desc.facebook" addon_id="" version_id="0" version_string=""><![CDATA[]]></phrase>
   <phrase title="user_field_desc.github" addon_id="" version_id="0" version_string=""><![CDATA[]]></phrase>
+  <phrase title="user_field_desc.instagram" addon_id="" version_id="0" version_string=""><![CDATA[]]></phrase>
   <phrase title="user_field_desc.skype" addon_id="" version_id="0" version_string=""><![CDATA[]]></phrase>
   <phrase title="user_field_desc.twitter" addon_id="" version_id="0" version_string=""><![CDATA[]]></phrase>
   <phrase title="user_field_title.email" addon_id="" version_id="0" version_string=""><![CDATA[E-Mail]]></phrase>
   <phrase title="user_field_title.facebook" addon_id="" version_id="0" version_string=""><![CDATA[Facebook]]></phrase>
   <phrase title="user_field_title.github" addon_id="" version_id="0" version_string=""><![CDATA[GitHub]]></phrase>
+  <phrase title="user_field_title.instagram" addon_id="" version_id="0" version_string=""><![CDATA[Instagram]]></phrase>
   <phrase title="user_field_title.skype" addon_id="" version_id="0" version_string=""><![CDATA[Skype]]></phrase>
   <phrase title="user_field_title.twitter" addon_id="" version_id="0" version_string=""><![CDATA[Twitter]]></phrase>
   <phrase title="user_group" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Benutzergruppe]]></phrase>
@@ -9151,9 +9158,6 @@ Wähle unten die zu installierenden Updates aus. Die ausgewählten Updates werde
   <phrase title="verification_code" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Authentifizierungscode]]></phrase>
   <phrase title="verification_key" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Authentifizierungschlüssel]]></phrase>
   <phrase title="version" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Version]]></phrase>
-  <phrase title="version_check_minimum" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Es ist nur die minimal erforderliche Version installiert. Für einige Funktionen in zukünftigen Versionen von XenForo ist eine neuere Version erforderlich.]]></phrase>
-  <phrase title="version_check_not_newest" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Es ist eine aktuellere Version als die erforderliche Mindestversion installiert. Für einige Funktionen, die für die Zukunft geplant sind, ist möglicherweise eine neuere Version erforderlich.]]></phrase>
-  <phrase title="version_check_recommended" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Es ist die empfohlene Version installiert. Alle Funktionen, die aktuell und für die Zukunft geplant sind, funktionieren auf diesem Server.]]></phrase>
   <phrase title="version_comparison" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Versionsvergleich]]></phrase>
   <phrase title="version_mismatch" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Versionsfehlanpassung]]></phrase>
   <phrase title="version_of_x_older_than_currently_installed" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Die bereitgestellte Version von {title} ist älter als die aktuell installierte Version.]]></phrase>
@@ -9606,7 +9610,6 @@ Hinweis: Wenn ein CLI-Upgrade empfohlen wird, kannst du dieses anstelle des Web-
   <phrase title="xfrm_if_selected_resource_in_category_created_thread_posted_forum" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[In dem an dieser Stelle ausgewählten Forum wird bei der Erstellung einer Ressource automatisch ein Thema zur Diskussion der Ressource erstellt.]]></phrase>
   <phrase title="xfrm_if_selected_users_required_select_prefix_when_creating_editing" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Wenn diese Option ausgewählt ist, müssen Benutzer beim Erstellen oder Bearbeiten einer Ressource ein Präfix auswählen. Dies wird für Moderatoren nicht erzwungen.]]></phrase>
   <phrase title="xfrm_if_you_have_specific_location_where_you_will_be_providing_support_or" addon_id="XFRM" version_id="2010470" version_string="2.1.4"><![CDATA[Wenn du eine bestimmte Seite hast, auf der zusätzliche Hilfe angeboten wird oder Fragen beantwortet werden, kannst du hier die URL zu dieser Seite eintragen.]]></phrase>
-  <phrase title="xfrm_if_you_have_your_own_web_site_with_more_info_enter_url" addon_id="XFRM" version_id="2010570" version_string="2.1.5"><![CDATA[Wenn du eine eigene Website mit weiteren Informationen hast, kannst du ihre URL hier eingeben.]]></phrase>
   <phrase title="xfrm_include_resource_updates" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Durchsuche auch Aktualisierungen von Ressourcen]]></phrase>
   <phrase title="xfrm_join_discussion" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Der Diskussion beitreten]]></phrase>
   <phrase title="xfrm_last_update" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Letzte Bearbeitung]]></phrase>
@@ -9730,7 +9733,6 @@ Hinweis: Wenn ein CLI-Upgrade empfohlen wird, kannst du dieses anstelle des Web-
   <phrase title="xfrm_this_resource_is_not_versioned" addon_id="XFRM" version_id="2010070" version_string="2.1.0"><![CDATA[Diese Ressource ist nicht versioniert.]]></phrase>
   <phrase title="xfrm_top_resources" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Top bewertet]]></phrase>
   <phrase title="xfrm_unapprove_resources" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Ressourcen moderieren]]></phrase>
-  <phrase title="xfrm_undelete_resource" addon_id="XFRM" version_id="2010570" version_string="2.1.5"><![CDATA[Ressource wiederherstellen]]></phrase>
   <phrase title="xfrm_undelete_resources" addon_id="XFRM" version_id="2010270" version_string="2.1.2"><![CDATA[Ressourcen wiederherstellen]]></phrase>
   <phrase title="xfrm_unfeature_resources" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Ressource nicht mehr empfehlen]]></phrase>
   <phrase title="xfrm_unwatch_resource" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Resource nicht mehr beobachten]]></phrase>
@@ -9873,7 +9875,6 @@ Hinweis: Wenn ein CLI-Upgrade empfohlen wird, kannst du dieses anstelle des Web-
   <phrase title="you_may_only_attach_x_files" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Du kannst nur {count} Dateien anhängen.]]></phrase>
   <phrase title="you_may_only_follow_x_people" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Du kannst nur einer Gesamtzahl von {count} Leuten folgen.]]></phrase>
   <phrase title="you_may_only_ignore_x_people" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Du kannst nur {count} Leute ignorieren.]]></phrase>
-  <phrase title="you_may_only_import_from_xenforo_20" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Du kannst nur aus XenForo 2.0 importieren.]]></phrase>
   <phrase title="you_may_only_invite_x_members_to_join_this_conversation" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Du kannst nur {count} Mitglied(er) einladen, an dieser Unterhaltung teilzunehmen.]]></phrase>
   <phrase title="you_may_select_up_to_x_choices" addon_id="XF" version_id="1040010" version_string="1.4.0 Alpha"><![CDATA[Du kannst bis zu {max} Optionen auswählen.]]></phrase>
   <phrase title="you_may_use_bb_code" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Du kannst BBCode verwenden]]></phrase>
@@ -9882,7 +9883,6 @@ Hinweis: Wenn ein CLI-Upgrade empfohlen wird, kannst du dieses anstelle des Web-
   <phrase title="you_may_use_star_as_wildcard_and_id_to_point_to_media_id" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Du kannst * als Platzhalter und {$id} verwenden, um auf die ID des Mediums zu zeigen. Diese ID wird dann im Embed-Code referenziert. Füge jede URL in eine eigene Zeile ein.]]></phrase>
   <phrase title="you_may_use_star_to_represent_wildcards_automatically_added" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Du kannst * verwenden, um Wildcards darzustellen. Wenn du keine Wildcards verwendest, werden diese automatisch hinzugefügt.]]></phrase>
   <phrase title="you_may_use_xenforo_template_syntax_here" addon_id="XF" version_id="1000016" version_string="1.0.0 Alpha 6"><![CDATA[Hier kannst du die XenForo-Template-Syntax verwenden.]]></phrase>
-  <phrase title="you_must_agree_to_terms_of_service" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Du musst den Nutzungsbedingungen zustimmen.]]></phrase>
   <phrase title="you_must_be_super_admin_to_access_this_page" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Du musst ein Superadministrator sein, um auf diese Seite zugreifen zu können. Dies kann im Abschnitt Administratoren des Admin CP konfiguriert werden.]]></phrase>
   <phrase title="you_must_be_super_administrator_to_edit_user" addon_id="XF" version_id="1000051" version_string="1.0.0 Release Candidate 1"><![CDATA[Du musst ein Superadministrator sein, um diesen Benutzer bearbeiten zu können.]]></phrase>
   <phrase title="you_must_confirm_deletion_to_proceed" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Du musst das Löschen bestätigen, um fortzufahren.]]></phrase>
@@ -9928,12 +9928,10 @@ Die zweistufige Anmeldung erhöht die Sicherheit deines Kontos, indem du einen z
   <phrase title="you_sure_you_want_to_re_enable_previously_disabled_add_ons" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Bist du sicher, dass du die zuvor deaktivierten Add-ons wieder aktivieren möchtest?]]></phrase>
   <phrase title="you_sure_you_want_to_remove_your_reaction" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Bist du sicher, dass du deine Reaktion entfernen möchtest?]]></phrase>
   <phrase title="you_sure_you_want_to_stop_all_emails_from_x" addon_id="XF" version_id="2010370" version_string="2.1.3"><![CDATA[Bist du sicher, dass du alle E-Mails von {board_title} abbestellen möchtest?]]></phrase>
-  <phrase title="you_sure_you_want_to_stop_email_notifications_for_conversations" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Bist du sicher, dass du die E-Mail-Benachrichtigungen für Unterhaltungen abbestellen möchtest?]]></phrase>
   <phrase title="you_sure_you_want_to_stop_watching_all_forums" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Bist du sicher, dass du <b>alle</b> Foren nicht mehr beobachten möchtest?]]></phrase>
   <phrase title="you_sure_you_want_to_stop_watching_all_resources" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Bist du sicher, dass du <b>alle</b> Ressourcen nicht mehr beobachten möchtest?]]></phrase>
   <phrase title="you_sure_you_want_to_stop_watching_all_threads" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Bist du sicher, dass du <b>alle</b> Themen nicht mehr beobachten möchtest?]]></phrase>
   <phrase title="you_sure_you_want_to_unlike_this_content" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Bist du sicher, dass du "Gefällt-mir" für diesen Inhalt entfernen möchtest?]]></phrase>
-  <phrase title="you_sure_you_want_to_unsubscribe_from_x_mailing_list" addon_id="XF" version_id="2010671" version_string="2.1.6 Patch 1"><![CDATA[Bist du sicher, dass du dich von der {board_title} Mailingliste abmelden möchtest?]]></phrase>
   <phrase title="you_sure_you_want_to_unwatch_this_category" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Bist du sicher, dass du diese Kategorie nicht mehr beobachten möchtest?]]></phrase>
   <phrase title="you_sure_you_want_to_unwatch_this_forum" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Bist du sicher, dass du dieses Forum nicht mehr beobachten möchtest?]]></phrase>
   <phrase title="you_sure_you_want_to_unwatch_this_thread" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Bist du sicher, dass du dieses Thema nicht mehr beobachten möchtest?]]></phrase>
