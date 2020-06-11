@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<language title="Deutsch" date_format="d.m.Y" time_format="H:i" currency_format="{symbol}{value}" week_start="0" decimal_point="," thousands_separator="." label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="de-DE" text_direction="LTR" base_version_id="2010872" export_version="2">
+<language title="Deutsch" date_format="d.m.Y" time_format="H:i" currency_format="{symbol}{value}" week_start="0" decimal_point="," thousands_separator="." label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="de-DE" text_direction="LTR" base_version_id="2011072" export_version="2">
   <phrase title="1_day_ago" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Vor einem Tag]]></phrase>
   <phrase title="1_month_ago" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Vor einem Monat]]></phrase>
   <phrase title="1_time" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[einmal]]></phrase>
@@ -15,6 +15,37 @@
   <phrase title="3_months_ago" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Vor drei Monaten]]></phrase>
   <phrase title="6_months_ago" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Vor sechs Monaten]]></phrase>
   <phrase title="9_months_ago" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Vor neun Monaten]]></phrase>
+  <phrase title="CMTV_Code_code_block_highlight" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Zeilen hervorheben]]></phrase>
+  <phrase title="CMTV_Code_code_block_highlight_explain" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Optional. Zeilennummern, die du hervorheben möchtest. Zum Beispiel würde "2, 4-6" die Zeilen 2, 4, 5 und 6 hervorheben.]]></phrase>
+  <phrase title="CMTV_Code_code_block_title" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Code-Block-Titel]]></phrase>
+  <phrase title="CMTV_Code_code_block_title_explain" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Optional. Falls angegeben, wird der standardmäßige Name der Sprache des Codes im Code-Block-Kopf durch den Titeltext ersetzt. Dies kann zum Beispiel genutzt werden, um einen Dateinamen anzugeben.]]></phrase>
+  <phrase title="CMTV_Code_collapse" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Einklappen]]></phrase>
+  <phrase title="CMTV_Code_copied" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Code wurde in die Zwischenablage kopiert.]]></phrase>
+  <phrase title="CMTV_Code_copy" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Kopieren]]></phrase>
+  <phrase title="CMTV_Code_expand" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Ausklappen]]></phrase>
+  <phrase title="CMTV_Math_block" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Block]]></phrase>
+  <phrase title="CMTV_Math_center" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Center]]></phrase>
+  <phrase title="CMTV_Math_in_certain_positions" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[In certain positions]]></phrase>
+  <phrase title="CMTV_Math_incorrect_latex_input" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Incorrect LaTeX input!]]></phrase>
+  <phrase title="CMTV_Math_inline" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Inline]]></phrase>
+  <phrase title="CMTV_Math_insert_math" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Insert math]]></phrase>
+  <phrase title="CMTV_Math_latex_input" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[LaTeX input]]></phrase>
+  <phrase title="CMTV_Math_latex_input_explain" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[<a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics#Symbols" target="_blank">How to use LaTeX?</a>]]></phrase>
+  <phrase title="CMTV_Math_left" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Left]]></phrase>
+  <phrase title="CMTV_Math_math" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Math]]></phrase>
+  <phrase title="CMTV_Math_none" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[None]]></phrase>
+  <phrase title="CMTV_Math_normal" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Normal]]></phrase>
+  <phrase title="CMTV_Math_position_content" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Content]]></phrase>
+  <phrase title="CMTV_Math_position_signatures" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Signatures]]></phrase>
+  <phrase title="CMTV_Math_position_titles" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Titles]]></phrase>
+  <phrase title="CMTV_Math_preview" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Preview]]></phrase>
+  <phrase title="CMTV_Math_render_everywhere_hint" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Be careful with this option as it will enable math rendering absolutely everywhere on the page, including usernames, links, buttons and so on.]]></phrase>
+  <phrase title="CMTV_Math_right" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Right]]></phrase>
+  <phrase title="CMTV_Math_selector" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Selector]]></phrase>
+  <phrase title="CMTV_Math_simple" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Simple]]></phrase>
+  <phrase title="CMTV_Math_start_typing_math" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Start typing math in "LaTeX input" field]]></phrase>
+  <phrase title="CMTV_Math_type" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Type]]></phrase>
+  <phrase title="CMTV_Math_type_explain" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Block math is bigger and should be used for big equations and formulas. It also creates line breaks before and after. Inline math is smaller and should be used inside the text.]]></phrase>
   <phrase title="a_moment_ago" addon_id="XF" global_cache="1" version_id="0" version_string=""><![CDATA[Gerade eben]]></phrase>
   <phrase title="a_z_0_9_and_only" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[nur A-Z, 0-9 und _]]></phrase>
   <phrase title="a_z_0_9_and_underscore_only" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[nur A-Z, a-z, 0-9, und _]]></phrase>
@@ -366,7 +397,7 @@
   <phrase title="advertisement_is_active" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Anzeige ist aktiv]]></phrase>
   <phrase title="advertising" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Werbung]]></phrase>
   <phrase title="advertising_position_is_active" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Werbeposition ist aktiv]]></phrase>
-  <phrase title="advertising_position_keys_must_be_unique" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Die Schlüssel für die Werbeposition müssen eindeutig sein.]]></phrase>
+  <phrase title="advertising_position_keys_must_be_unique" addon_id="XF" version_id="2011072" version_string="2.1.10 Patch 2"><![CDATA[Die Schlüssel für die Werbeposition müssen eindeutig sein. Der angegebene Schlüssel ist bereits in Verwendung.]]></phrase>
   <phrase title="advertising_positions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Werbeplätze]]></phrase>
   <phrase title="after_checking_x_files_we_found_y_inconsistent" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Nach der Überprüfung von {checked} Dateien fanden wir {inconsistent} Dateien, die unerwartete Inhalte enthielten.]]></phrase>
   <phrase title="after_checking_x_files_we_found_y_missing" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Nach der Überprüfung von {checked} Dateien haben wir festgestellt, dass {missing} Dateien fehlen.]]></phrase>
@@ -904,8 +935,10 @@ Sollte ein Ereignis mit einem Hinweis ausgelöst werden, wird der mögliche Hinw
   <phrase title="code_language.csharp" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[C#]]></phrase>
   <phrase title="code_language.css" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[CSS]]></phrase>
   <phrase title="code_language.diff" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Diff]]></phrase>
+  <phrase title="code_language.docker" addon_id="" version_id="0" version_string=""><![CDATA[Dockerfile]]></phrase>
   <phrase title="code_language.general" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Allgemeiner Code]]></phrase>
   <phrase title="code_language.git" addon_id="XF" version_id="2000270" version_string="2.0.2"><![CDATA[Git]]></phrase>
+  <phrase title="code_language.go" addon_id="" version_id="0" version_string=""><![CDATA[Go]]></phrase>
   <phrase title="code_language.html" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[HTML]]></phrase>
   <phrase title="code_language.http" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[HTTP]]></phrase>
   <phrase title="code_language.ini" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[INI]]></phrase>
@@ -1038,7 +1071,7 @@ Sollte ein Ereignis mit einem Hinweis ausgelöst werden, wird der mögliche Hinw
   <phrase title="continue_reading" addon_id="XF" global_cache="1" version_id="1000036" version_string="1.0.0 Beta 6"><![CDATA[Lese weiter....]]></phrase>
   <phrase title="control_how_example_appear_on_bb_code_help_page" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Stelle ein, wie das Beispiel auf der BBCode-Hilfeseite erscheinen soll. Wird keine Ausgabe eingegeben, wird stattdessen das Beispiel angezeigt.]]></phrase>
   <phrase title="controller" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Controller]]></phrase>
-  <phrase title="controller_and_action_criteria_explain" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Gib den Aktionsnamen als <b>personal-details</b>, nicht <b>actionPersonalDetails</b> oder <b>personalDetails</b> an. Du kannst die Aktion leer lassen, um sie auf alle Aktionen innerhalb des angegebenen Controllers anzuwenden.]]></phrase>
+  <phrase title="controller_and_action_criteria_explain" addon_id="XF" version_id="2011072" version_string="2.1.10 Patch 2"><![CDATA[Du kannst den Aktionsnamen als <b>account-details</b> oder <b>AccountDetails</b> angeben. Ein Präfix wie <b>action</b> darf der Aktionsname nicht enthalten. Du kannst die Aktion leer lassen, um sie auf alle Aktionen innerhalb des angegebenen Controllers anzuwenden.]]></phrase>
   <phrase title="controller_and_action_is" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Controller und Aktion ist]]></phrase>
   <phrase title="conversation" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Unterhaltung]]></phrase>
   <phrase title="conversation_email_html_footer" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[<p class="minorText">Bitte antworte nicht auf diese Nachricht. Du musst das Forum besuchen, um zu antworten.</p>
@@ -1250,12 +1283,17 @@ Wenn du dich weiterhin auf dieser Seite aufhältst, akzeptierst du unseren Einsa
   <phrase title="currency.zar" addon_id="XF" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Südafrikanischer Rand]]></phrase>
   <phrase title="currency.zmk" addon_id="XF" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[Sambische Kwachas]]></phrase>
   <phrase title="currency_format" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Währungsformat]]></phrase>
+  <phrase title="currency_format_explain" addon_id="XF" version_id="2011070" version_string="2.1.10"><![CDATA[You may use {symbol} to be replaced with the given currency symbol and {value} to be replaced with the given value.]]></phrase>
   <phrase title="currency_format_must_contain_at_least_value" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Das Währungsformat muss mindestens "{value}" enthalten.]]></phrase>
   <phrase title="current_avatar" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Aktueller Avatar]]></phrase>
   <phrase title="current_password" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Aktuelles Passwort]]></phrase>
   <phrase title="current_version" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Aktuelle Version]]></phrase>
   <phrase title="current_visitors" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Zurzeit aktive Besucher]]></phrase>
   <phrase title="custom_bb_code_callback_will_receive_parameters" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Dieser Callback wird folgende Parameter erhalten: $tagChildren, $tagOption, $tag, $tag,  array $options, \XF\BbCode\Renderer\AbstractRenderer $renderer.]]></phrase>
+  <phrase title="custom_bb_code_desc.hr" addon_id="" version_id="0" version_string=""><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.hr" addon_id="" version_id="0" version_string=""><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.hr" addon_id="" version_id="0" version_string=""><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_title.hr" addon_id="" version_id="0" version_string=""><![CDATA[Horizontale Linie]]></phrase>
   <phrase title="custom_bb_codes" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Benutzerdefinierte BBCodes]]></phrase>
   <phrase title="custom_changes" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Benutzerdefinierte Änderungen]]></phrase>
   <phrase title="custom_class_extensions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Benutzerdefinierte Klassenerweiterungen]]></phrase>
@@ -5483,10 +5521,10 @@ Der Callback sollte entweder ein Array oder nichts zurückgeben. Wenn nichts zur
   <phrase title="mod_log.thread_poll_delete" addon_id="XF" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[Themen-Umfrage gelöscht]]></phrase>
   <phrase title="mod_log.thread_poll_edit" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Themen-Umfrage bearbeitet]]></phrase>
   <phrase title="mod_log.thread_poll_reset" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Umfrage zurücksetzen]]></phrase>
-  <phrase title="mod_log.thread_post_copy_source" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Beiträge aus dem Thema kopiert nach {title}]]></phrase>
+  <phrase title="mod_log.thread_post_copy_source" addon_id="XF" version_id="2011072" version_string="2.1.10 Patch 2"><![CDATA[Beiträge aus dem nach <a href="{url}">{title}</a> kopierten Thema]]></phrase>
   <phrase title="mod_log.thread_post_copy_target" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Thema erstellt durch Kopieren von Beiträgen ({ids})]]></phrase>
   <phrase title="mod_log.thread_post_copy_target_existing" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Beiträge ({ids}) in das Thema kopiert]]></phrase>
-  <phrase title="mod_log.thread_post_move_source" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Beiträge aus dem Thema verschoben nach {title}]]></phrase>
+  <phrase title="mod_log.thread_post_move_source" addon_id="XF" version_id="2011072" version_string="2.1.10 Patch 2"><![CDATA[Beiträge aus dem nach <a href="{url}">{title}</a> verschobenen Thema]]></phrase>
   <phrase title="mod_log.thread_post_move_target" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Thema erstellt durch Verschieben von Beiträgen ({ids})]]></phrase>
   <phrase title="mod_log.thread_post_move_target_existing" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Beiträge ({ids}) wurden ins Thema verschoben]]></phrase>
   <phrase title="mod_log.thread_prefix" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Themen-Präfix, editiert von '{old}'.]]></phrase>
@@ -5793,6 +5831,7 @@ Der Callback sollte entweder ein Array oder nichts zurückgeben. Wenn nichts zur
   <phrase title="note_this_action_will_overwrite_previously_cached_disabled_add_ons_list" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Hinweis: Diese Aktion überschreibt die zuvor zwischengespeicherte Liste der deaktivierten Add-ons.]]></phrase>
   <phrase title="note_thread_starter_see_alert_even_no_longer_view_thread" addon_id="XF" version_id="2010370" version_string="2.1.3"><![CDATA[Beachte, dass der Themen-Starter diesen Hinweis sieht, auch wenn er sein Thema nicht mehr sehen kann.]]></phrase>
   <phrase title="note_to_test_provider_must_support_redirecting_to_following_url" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Hinweis: Um diesen Test durchführen zu können, muss der Provider die Weiterleitung auf die folgende URL unterstützen]]></phrase>
+  <phrase title="note_your_subscription_may_appear_active_until_original_expiry_date" addon_id="XF" version_id="2011070" version_string="2.1.10"><![CDATA[Note: Your subscription may appear active until the original expiry date passes.]]></phrase>
   <phrase title="notes" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Anmerkungen]]></phrase>
   <phrase title="notice_display_length_desc" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Diese Zeit (in Millisekunden) gibt an, wie lange eine Information zu sehen ist, bevor sie ausgeblendet wird. Verwende den Wert 0, um sie so lange anzeigen zu lassen, bis sie von Hand ausgeblendet wird.]]></phrase>
   <phrase title="notice_display_type_desc" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Blocknotizen werden oben auf der Seite über dem oberen Breadcrumb angezeigt. Schwebende Notizen werden in der rechten unteren Ecke angezeigt.]]></phrase>
@@ -5862,6 +5901,18 @@ Hinweis: Beim Aktivieren von oEmbed wird jedes HTML, das in das Feld "Embed temp
   <phrase title="open_link" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Link öffnen]]></phrase>
   <phrase title="open_thread" addon_id="XF" version_id="2000038" version_string="2.0.0 Beta 8"><![CDATA[Offenes Thema]]></phrase>
   <phrase title="optgroup_tags_cannot_be_nested" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Optgroup-Tags können nicht verschachtelt werden.]]></phrase>
+  <phrase title="option.CMTV_Code_backComp" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Code Add-on Rückwärtskompatibilität]]></phrase>
+  <phrase title="option.CMTV_Code_commonLanguages" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Gängige Code-Sprachen]]></phrase>
+  <phrase title="option.CMTV_Code_defaultCodeLanguage" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Standard-Code-Sprache]]></phrase>
+  <phrase title="option.CMTV_Code_lineHighlight_enabled" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Zeilenhervorhebung]]></phrase>
+  <phrase title="option.CMTV_Code_lineNumbers_enabled" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Code-Zeilennummern]]></phrase>
+  <phrase title="option.CMTV_Math_mathjax_configuration" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[MathJax configuration]]></phrase>
+  <phrase title="option.CMTV_Math_mathjax_displayAlign" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Block math align]]></phrase>
+  <phrase title="option.CMTV_Math_mathjax_messageStyle" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[MathJax messages style]]></phrase>
+  <phrase title="option.CMTV_Math_mathjax_showMathMenu" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Show MathJax menu]]></phrase>
+  <phrase title="option.CMTV_Math_renderPositions" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Render math]]></phrase>
+  <phrase title="option.CMTV_Math_renderSelectors" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Additional render selectors]]></phrase>
+  <phrase title="option.CMTV_Math_skipSelectors" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Ignore math in selectors]]></phrase>
   <phrase title="option.acpSearchExclude" addon_id="XF" version_id="2000270" version_string="2.0.2"><![CDATA[Schnellsuche nach Inhaltstypen]]></phrase>
   <phrase title="option.addBanUserGroup" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Benutzergruppe zu Sperre hinzufügen]]></phrase>
   <phrase title="option.adminRequireTfa" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Erfordert eine zweistufige Anmeldung, um auf die Administration zuzugreifen.]]></phrase>
@@ -5891,7 +5942,7 @@ Hinweis: Beim Aktivieren von oEmbed wird jedes HTML, das in das Feld "Embed temp
   <phrase title="option.censorCharacter" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Zensurzeichen]]></phrase>
   <phrase title="option.censorWords" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Worte zur Zensur]]></phrase>
   <phrase title="option.changeLogLength" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Protokolllänge einstellen]]></phrase>
-  <phrase title="option.collectServerStats" addon_id="XF" version_id="2000270" version_string="2.0.2"><![CDATA[Sende anonyme Serverstatistiken]]></phrase>
+  <phrase title="option.collectServerStats" addon_id="XF" version_id="2011072" version_string="2.1.10 Patch 2"><![CDATA[Sende anonyme Nutzungsstatistiken]]></phrase>
   <phrase title="option.contactEmailAddress" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Kontakt-E-Mail-Adresse]]></phrase>
   <phrase title="option.contactEmailSenderHeader" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Absenderinfo in der Kopfzeile bei Kontakt-E-Mails]]></phrase>
   <phrase title="option.contactUrl" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Kontakt-URL]]></phrase>
@@ -5902,6 +5953,8 @@ Hinweis: Beim Aktivieren von oEmbed wird jedes HTML, das in das Feld "Embed temp
   <phrase title="option.defaultEmailStyleId" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Standard-E-Mail-Style]]></phrase>
   <phrase title="option.defaultLanguageId" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Standard-Sprache]]></phrase>
   <phrase title="option.defaultStyleId" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Standard-Style]]></phrase>
+  <phrase title="option.devcommunitydeCodeFormatterApiBaseUrl" addon_id="DevCommunityDE/CodeFormatter" version_id="10010" version_string="0.1.0 Alpha"><![CDATA[API Basis-URL]]></phrase>
+  <phrase title="option.devcommunitydeCodeFormatterApiKey" addon_id="DevCommunityDE/CodeFormatter" version_id="10010" version_string="0.1.0 Alpha"><![CDATA[API-Schlüssel]]></phrase>
   <phrase title="option.disallowedCustomTitles" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Verbotene benutzerdefinierte Titel]]></phrase>
   <phrase title="option.discourageBlankChance" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Möglichkeit einer leeren Seite]]></phrase>
   <phrase title="option.discourageDelay" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Ladeverzögerung]]></phrase>
@@ -6067,6 +6120,28 @@ Hinweis: Beim Aktivieren von oEmbed wird jedes HTML, das in das Feld "Embed temp
   <phrase title="option.xfrmReviewsPerPage" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Rezensionen pro Seite]]></phrase>
   <phrase title="option.xfrmUpdateMaxLength" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Maximale Zeichenzahl Beschreibungstext]]></phrase>
   <phrase title="option.xfrmUpdatesPerPage" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Aktualisierungen pro Seite]]></phrase>
+  <phrase title="option_explain.CMTV_Code_backComp" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Falls aktiviert, werden Code-Blöcke von alten Add-on-Versionen <code>[code=title|lang]...[/code]</code> als <code>[code lang="lang" title="title"]...[/code]</code> behandelt.]]></phrase>
+  <phrase title="option_explain.CMTV_Code_commonLanguages" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Die hier angegebenen Sprachen werden im "Gängige Sprachen"-Block im "Code einfügen"-Beitragseditor-Dialog angezeigt.]]></phrase>
+  <phrase title="option_explain.CMTV_Code_defaultCodeLanguage" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Diese Sprache wird standardmäßig im "Code einfügen"-Beitragseditor-Dialog ausgewählt.]]></phrase>
+  <phrase title="option_explain.CMTV_Code_lineHighlight_enabled" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Falls aktiviert, können Nutzer bestimmte Zeilen und/oder Zeilenabschnitte in Code-Blöcken hervorheben. <a href="https://prismjs.com/plugins/line-highlight/" target="_blank">Plugin-Seite</a>]]></phrase>
+  <phrase title="option_explain.CMTV_Code_lineNumbers_enabled" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Falls aktiviert, wird die Zeilennummer am Anfang der Zeilen in Code-Blöcken angezeigt. <a href="https://prismjs.com/plugins/line-numbers/" target="_blank">Plugin-Seite</a>]]></phrase>
+  <phrase title="option_explain.CMTV_Math_mathjax_configuration" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[<a href="http://docs.mathjax.org/en/latest/config-files.html#combined-configurations" target="_blank">A list of available configurations</a><br><br>
+<div class="blockMessage blockMessage--iconic blockMessage--important" style="margin: 0 2px;">
+<b>Make sure you fully understand what you are doing when changing this!</b><br>
+You may need to change MathJax configuration in <code>CMTV_Math_MathJax</code> template.
+</div>]]></phrase>
+  <phrase title="option_explain.CMTV_Math_mathjax_displayAlign" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.CMTV_Math_mathjax_messageStyle" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[This value controls the verbosity of MathJax messages in the lower left-hand corner.
+<ul>
+<li><strong>Normal</strong> — showing full file name or the percentage of the mathematics processed</li>
+<li><strong>Simple</strong> — messages are shorter</li>
+<li><strong>None</strong> — no messages at all</li>
+</ul>]]></phrase>
+  <phrase title="option_explain.CMTV_Math_mathjax_showMathMenu" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[If enabled, right-clicking (on Windows or Linux) or control-clicking (on Mac OS X) will produce a MathJax menu that allows you to get the source of the mathematics in various formats, change the size of the mathematics relative to the surrounding text, get information about MathJax, and configure other MathJax settings.]]></phrase>
+  <phrase title="option_explain.CMTV_Math_renderPositions" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[]]></phrase>
+  <phrase title="option_explain.CMTV_Math_renderSelectors" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Type jQuery selector. This can be an element ID, class or their combination. For example: "<code>div.foo [name=bar]</code>" will find elements with <code>name="bar"</code> attribute inside a "div" element with "foo" class.<br><br>
+<strong>Math in render selectors content will be rendered anyways but not in ignored child elements!</strong>]]></phrase>
+  <phrase title="option_explain.CMTV_Math_skipSelectors" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Type jQuery selector. This can be an element ID, class or their combination. For example: "<code>div.foo [name=bar]</code>" will find elements with <code>name="bar"</code> attribute inside a "div" element with "foo" class.]]></phrase>
   <phrase title="option_explain.acpSearchExclude" addon_id="XF" version_id="2000270" version_string="2.0.2"><![CDATA[Wenn du die Schnellsuche in der Systemsteuerung verwendest, werden Inhalte der folgenden Typen durchsucht. Das Deaktivieren von Inhaltstypen kann die Suche etwas beschleunigen.]]></phrase>
   <phrase title="option_explain.addBanUserGroup" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Wenn ein Benutzer gesperrt wird, kann er einer bestimmten Benutzergruppe hinzugefügt werden, während die Sperre aktiv ist. So kannst du z.B. das Styling von deren Benutzergruppe überschreiben.]]></phrase>
   <phrase title="option_explain.adminRequireTfa" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Wenn diese Einstellung aktiviert ist, können Administratoren erst dann auf die Administration zugreifen, wenn sie die zweistufige Anmeldung aktiviert haben. Dies wirkt sich bis zum nächsten Login nicht auf die Benutzer aus, die derzeit in der Administration angemeldet sind.]]></phrase>
@@ -6089,7 +6164,7 @@ Du solltest auch die maximale Videodateigröße in Kilobyte (KB) angeben. Videos
   <phrase title="option_explain.attachmentThumbnailDimensions" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Die maximale Breite und Höhe der generierten Vorschaubilder für Anhänge. Beachte, dass du, wenn du diesen Wert änderst, die Vorschaubilder der Anhänge über das System "Caches und Indizes neu erstellen" neu generieren musst.]]></phrase>
   <phrase title="option_explain.autoEmbedMedia" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Aktiviere diese Einstellung, damit das System versucht, Medien automatisch von URLs einzubetten, die von Besuchern gepostet wurden, die auf registrierte Medienseiten verweisen. Wenn du dich dafür entscheidest auch einen Link auf den Inhalt einzubinden, kann die Medieneinbettung beim Zitieren der Nachricht dupliziert werden.]]></phrase>
   <phrase title="option_explain.boardActive" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[]]></phrase>
-  <phrase title="option_explain.boardDescription" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Gib eine Beschreibung für dein Forum ein. Dies wird innerhalb des Meta-Beschreibungs-Tags für die Startseite des Forums platziert, vermeide also die Verwendung von HTML.]]></phrase>
+  <phrase title="option_explain.boardDescription" addon_id="XF" version_id="2011072" version_string="2.1.10 Patch 2"><![CDATA[Gib eine Beschreibung für dein Forum ein. Dies wird innerhalb des Meta-Beschreibungs-Tags für die Standardseite des Forums platziert, vermeide also die Verwendung von HTML.]]></phrase>
   <phrase title="option_explain.boardInactiveMessage" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Wenn das Forum inaktiv/geschlossen ist, wird diese Meldung den Besuchern der Website angezeigt. Du kannst HTML verwenden.]]></phrase>
   <phrase title="option_explain.boardTitle" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Der Titel deines Forums. Diese wird oben auf den Seiten angezeigt und in E-Mails verwendet.]]></phrase>
   <phrase title="option_explain.boardUrl" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Die primäre URL zu deinem Forum. Füge kein abschließendes "/" oder "index.php" ein. Die URL sollte folgendermaßen aussehen: https://www.example.com/forum]]></phrase>
@@ -6102,9 +6177,9 @@ Du solltest auch die maximale Videodateigröße in Kilobyte (KB) angeben. Videos
 <br />
 Wenn du einen Platzhalter am Anfang oder Ende des gesuchten Wortes finden möchtest, füge ein "*" an der richtigen Stelle ein. Zum Beispiel wird "Hund" nicht "Hunde", sondern "Hund*" zensieren.]]></phrase>
   <phrase title="option_explain.changeLogLength" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Protokolldaten über geänderte Inhalte werden für diese Anzahl von Tagen aufbewahrt. Verwende den Wert 0, um die Protokolldaten unbegrenzt aufzubewahren.]]></phrase>
-  <phrase title="option_explain.collectServerStats" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[XenForo möchte einige anonyme Statistiken sammeln, einschließlich deiner PHP-, MySQL- und XenForo-Versionen.<br />
+  <phrase title="option_explain.collectServerStats" addon_id="XF" version_id="2011072" version_string="2.1.10 Patch 2"><![CDATA[XenForo möchte einige anonyme Statistiken sammeln, einschließlich deiner PHP-, MySQL- und XenForo-Versionen.<br />
 <br />
-XenForo sammelt keine Daten ohne deine Zustimmung. Die Daten werden anonymisiert gespeichert und keine Benutzerdaten gesammelt.]]></phrase>
+Falls aktiviert, werden alle gesammelten Daten anonymisiert gespeichert und enthalten zudem keine Benutzerdaten.]]></phrase>
   <phrase title="option_explain.contactEmailAddress" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[E-Mail-Adresse, an die Nachrichten mit Bezug auf das Forum gesendet werden.]]></phrase>
   <phrase title="option_explain.contactEmailSenderHeader" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Wenn diese Einstellung aktiviert ist, werden E-Mails, die über das Kontaktformular versendet werden, mit den Absenderangaben im "Von"-Header und nicht im "Antwort"-Header versendet. Die Aktivierung dieser Einstellung kann in Situationen hilfreich sein, in denen die Beantwortung einer Kontaktnachricht nicht an die richtige Adresse geht. Sie möglicherweise nicht mit allen SMTP-Servern kompatibel.]]></phrase>
   <phrase title="option_explain.contactUrl" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Dies ist die URL zu der Seite, auf der die Benutzer dich kontaktieren können. Bitte beachte, dass die Overlay-Option nur mit XenForo-URLs funktioniert. Wenn du also eine externe URL angibst, wird sie höchstwahrscheinlich nicht mit einem Overlay funktionieren.]]></phrase>
@@ -6115,6 +6190,8 @@ XenForo sammelt keine Daten ohne deine Zustimmung. Die Daten werden anonymisiert
   <phrase title="option_explain.defaultEmailStyleId" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[]]></phrase>
   <phrase title="option_explain.defaultLanguageId" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[]]></phrase>
   <phrase title="option_explain.defaultStyleId" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[]]></phrase>
+  <phrase title="option_explain.devcommunitydeCodeFormatterApiBaseUrl" addon_id="DevCommunityDE/CodeFormatter" version_id="10010" version_string="0.1.0 Alpha"><![CDATA[]]></phrase>
+  <phrase title="option_explain.devcommunitydeCodeFormatterApiKey" addon_id="DevCommunityDE/CodeFormatter" version_id="10010" version_string="0.1.0 Alpha"><![CDATA[]]></phrase>
   <phrase title="option_explain.disallowedCustomTitles" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Gib die Wörter oder Phrasen ein, die in benutzerdefinierten Benutzertiteln nicht erlaubt sind. Alle zensierten Wörter werden automatisch gesperrt. Platziere jedes Wort oder jede Phrase in einer separaten Zeile.]]></phrase>
   <phrase title="option_explain.discourageBlankChance" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Du kannst ausgegrenzten Benutzern von Zeit zu Zeit eine leere Seite präsentieren. Gib die prozentuale Wahrscheinlichkeit ein, mit der dies geschieht.]]></phrase>
   <phrase title="option_explain.discourageDelay" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Ausgegrenzte Benutzer werden einer Verzögerung des Seitenaufrufs von einer zufälligen Zeitspanne zwischen den beiden hier angegebenen Werten ausgesetzt.]]></phrase>
@@ -6312,6 +6389,7 @@ Verwende das Textfeld oben, um ein Format anzugeben. <b>{title}</b> wird durch d
   <phrase title="option_explain.xfrmReviewsPerPage" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[]]></phrase>
   <phrase title="option_explain.xfrmUpdateMaxLength" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[Die Maximalzahl von Zeichen, die in einer Ressourcen-Aktualisierung oder -beschreibung verwendet werden kann. Dies schließt  BBCode mit ein. Verwende den Wert 0, um diesen Block zu deaktivieren.]]></phrase>
   <phrase title="option_explain.xfrmUpdatesPerPage" addon_id="XFRM" version_id="2000470" version_string="2.0.4"><![CDATA[]]></phrase>
+  <phrase title="option_group.CMTV_Math" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Math]]></phrase>
   <phrase title="option_group.acp" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Administration]]></phrase>
   <phrase title="option_group.alerts" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Hinweise für Benutzer]]></phrase>
   <phrase title="option_group.appearance" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Erscheinungsbild]]></phrase>
@@ -6320,6 +6398,7 @@ Verwende das Textfeld oben, um ein Format anzugeben. <b>{title}</b> wird durch d
   <phrase title="option_group.boardActive" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Forenaktivierung]]></phrase>
   <phrase title="option_group.censoringOptions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Zensur]]></phrase>
   <phrase title="option_group.debug" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Debug-Optionen]]></phrase>
+  <phrase title="option_group.devcommunitydeCodeFormatter" addon_id="DevCommunityDE/CodeFormatter" version_id="10010" version_string="0.1.0 Alpha"><![CDATA[Code Formatter-Einstellungen]]></phrase>
   <phrase title="option_group.discourager" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Ausgegrenzte Benutzer und Disziplinierung]]></phrase>
   <phrase title="option_group.discussionOptions" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Themen, Diskussionen und Unterhaltungen]]></phrase>
   <phrase title="option_group.emailOptions" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[E-Mail-Einstellungen]]></phrase>
@@ -6344,6 +6423,7 @@ Verwende das Textfeld oben, um ein Format anzugeben. <b>{title}</b> wird durch d
   <phrase title="option_group_belongs_to_disabled_addon" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Das Add-on <em>{addon}</em>, zu dem diese Optionsgruppe gehört, ist derzeit deaktiviert.<br />
 <br />
 Du kanst das Add-on <em>{addon}</em> in der <a href="{link}">Liste der installierten Add-ons</a> aktivieren.]]></phrase>
+  <phrase title="option_group_description.CMTV_Math" addon_id="CMTV/Math" version_id="2010070" version_string="2.1.0"><![CDATA[Where to render math and MathJax configuration options.]]></phrase>
   <phrase title="option_group_description.acp" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Enthält verschiedene Einstellungen, die sich auf das Admin-Control-Panel selbst beziehen.]]></phrase>
   <phrase title="option_group_description.alerts" addon_id="XF" version_id="2010470" version_string="2.1.4"><![CDATA[Wenn Ereignisse eintreten, die einzelne Benutzer betreffen, werden sie über dieses System benachrichtigt. Wird ein unterstütztes Gerät verwendet, können Warnmeldungen als Push-Benachrichtigung direkt an das Gerät gesendet werden. Da große Mengen von Hinweisen generiert werden, werden sie regelmäßig aus der Datenbank entfernt.]]></phrase>
   <phrase title="option_group_description.appearance" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Mit Hilfe dieser Einstellungen kann das Erscheinungsbild der Seite für alle Besucher voreingestellt werden.]]></phrase>
@@ -6352,6 +6432,7 @@ Du kanst das Add-on <em>{addon}</em> in der <a href="{link}">Liste der installie
   <phrase title="option_group_description.boardActive" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Mit Hilfe dieser Einstellungen kann das Forum an- oder abgeschaltet werden. Die Seite selbst ist weiterhin erreichbar.]]></phrase>
   <phrase title="option_group_description.censoringOptions" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Mit Hilfe dieser Einstellungen können die Vorgaben für die Zensur-Einstellungen festgelegt werden, welche für die Überprüfung der erstellten Texte zur Anwendung kommen.]]></phrase>
   <phrase title="option_group_description.debug" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Diese Einstellungen sind ausschließlich für die direkte Manipulation durch die XenForo-Entwickler gedacht.]]></phrase>
+  <phrase title="option_group_description.devcommunitydeCodeFormatter" addon_id="DevCommunityDE/CodeFormatter" version_id="10010" version_string="0.1.0 Alpha"><![CDATA[Einstellungen des "Code Formatter"-Add-on's von dev-community.de.]]></phrase>
   <phrase title="option_group_description.discourager" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Ausgegrenzte Benutzer unterliegen ärgerlichen Ereignissen, Misserfolgen oder unerklärlichen Verzögerungen beim Besuch dieser Seite. Auf diesem Wege sollen sie "dazu ermuntert werden", sich eine anderen Seite für ihre "Spielchen" zu suchen oder ihr Verhalten zu ändern.<br />
 <br />
 Du kannst einen Benutzer in den Modus "ausgegrenzt" versetzen, indem du sein Benutzerprofil bearbeitest, oder eine IP-Adresse oder einen IP-Adressbereich deaktivierst.]]></phrase>
@@ -6814,6 +6895,7 @@ Callback-Argumente:
   <phrase title="please_enter_valid_value" addon_id="XF" version_id="0" version_string=""><![CDATA[Bitte gib einen gültigen Wert ein.]]></phrase>
   <phrase title="please_enter_valid_welcome_conversation_contents" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Bitte gib einen gültigen Inhalt für die Unterhaltung zur Begrüßung ein.]]></phrase>
   <phrase title="please_enter_value_for_all_required_fields" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Bitte gib einen Wert für alle Pflichtfelder ein.]]></phrase>
+  <phrase title="please_enter_value_for_required_field" addon_id="XF" version_id="2011070" version_string="2.1.10"><![CDATA[Please enter a value for the required field.]]></phrase>
   <phrase title="please_enter_value_for_required_field_x" addon_id="XF" version_id="0" version_string=""><![CDATA[Bitte gib einen Wert für das gewünschte Feld ein '{field}'.]]></phrase>
   <phrase title="please_enter_value_that_matches_required_format" addon_id="XF" version_id="1010010" version_string="1.1.0 Alpha"><![CDATA[Bitte gib einen Wert ein, der dem gewünschten Format entspricht.]]></phrase>
   <phrase title="please_enter_value_that_matches_requirements_for_this_field" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Bitte gib einen Wert ein, der den Anforderungen für dieses Feld entspricht.]]></phrase>
@@ -7691,6 +7773,7 @@ Für zusätzliche Sicherheit wird empfohlen, unten dein "Signing secret" einzuge
   <phrase title="style_chooser" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Style-Auswahl]]></phrase>
   <phrase title="style_contains_no_customized_templates_or_style_properties" addon_id="XF" version_id="1010035" version_string="1.1.0 Beta 5"><![CDATA[Dieser Style enthält keine angepassten Templates oder Style-Eigenschaften.]]></phrase>
   <phrase title="style_designer_mode_ids_must_be_unique" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Style-Designer-Mode-IDs müssen eindeutig sein. Die angegebene ID wird bereits verwendet.]]></phrase>
+  <phrase title="style_prop.CMTV_Code_code_block_max_height" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[Maximale Höhe eines Code-Blocks]]></phrase>
   <phrase title="style_prop.animationSpeed" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Basis-Animationsgeschwindigkeit]]></phrase>
   <phrase title="style_prop.avatarBg" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Avatar-Hintergrundfarbe]]></phrase>
   <phrase title="style_prop.avatarBorderRadius" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Avatar-Rahmen-Radius]]></phrase>
@@ -7943,6 +8026,7 @@ Für zusätzliche Sicherheit wird empfohlen, unten dein "Signing secret" einzuge
   <phrase title="style_prop.warningFeatureColor" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Farbe Warnmeldung, hervorgehoben]]></phrase>
   <phrase title="style_prop.whatsNewNavStyle" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Style Navigation Aktuelles]]></phrase>
   <phrase title="style_prop.zIndexMultiplier" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Multiplikator Z-Index]]></phrase>
+  <phrase title="style_prop_desc.CMTV_Code_code_block_max_height" addon_id="CMTV/Code" version_id="2010070" version_string="2.1.0"><![CDATA[]]></phrase>
   <phrase title="style_prop_desc.animationSpeed" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Die Geschwindigkeit aller Animationen innerhalb des Systems basiert auf diesem Wert. Kleinere Werte (in Sekunden) sorgen für schnellere Animationen.]]></phrase>
   <phrase title="style_prop_desc.avatarBg" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Der grundlegende Hintergrund aller Avatare, grafisch und generisch]]></phrase>
   <phrase title="style_prop_desc.avatarBorderRadius" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Steuert die Größe der abgerundeten Ecken bei Avataren - ein ausreichend großer Wert macht Avatare kreisförmig.]]></phrase>
@@ -8140,7 +8224,7 @@ Für zusätzliche Sicherheit wird empfohlen, unten dein "Signing secret" einzuge
   <phrase title="style_prop_desc.paletteNeutral3" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[]]></phrase>
   <phrase title="style_prop_desc.profilePostCommentToggle" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[Wenn aktiviert, wird die Eingabe für einen Kommentar zu einer Profilnachricht erst angezeigt, nachdem auf den Umschalter geklickt wurde.]]></phrase>
   <phrase title="style_prop_desc.progressBarColor" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Der Fortschrittsbalken erscheint am oberen Rand des Fensters, wenn das System auf eine Antwort des Servers wartet.]]></phrase>
-  <phrase title="style_prop_desc.publicFaviconUrl" addon_id="XF" version_id="2010872" version_string="2.1.8 Patch 2"><![CDATA[Pfad zum kleinen Logo, das mit Lesezeichen verknüpft ist, die auf deine Website verweisen]]></phrase>
+  <phrase title="style_prop_desc.publicFaviconUrl" addon_id="XF" version_id="2011072" version_string="2.1.10 Patch 2"><![CDATA[Pfad zum kleinen Logo, das mit Lesezeichen verknüpft ist, die auf deine Website verweisen]]></phrase>
   <phrase title="style_prop_desc.publicFooter" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Die Fußzeile ist das primäre Element, das sich unterhalb des Hauptinhalts auf allen öffentlichen Seiten befindet.]]></phrase>
   <phrase title="style_prop_desc.publicFooterLink" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Steuert das Styling für einzelne Links in der Fußzeile.]]></phrase>
   <phrase title="style_prop_desc.publicHeader" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Die Kopfzeile enthält dein Logo und befindet sich oben auf jeder öffentlichen Seite.]]></phrase>
@@ -8249,6 +8333,7 @@ Für zusätzliche Sicherheit wird empfohlen, unten dein "Signing secret" einzuge
   <phrase title="style_prop_group_desc.rte" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Der Rich-Text-Editor (oder WYSIWYG-Editor) ist die bevorzugte Methode zur Eingabe von Text für Beiträge, die im Forum gepostet werden. Mit den Einstellungen in dieser Gruppe können verschiedene Teile des Editors gestaltet werden.]]></phrase>
   <phrase title="style_prop_group_desc.tab" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Eigenständige Registerkarten - diejenigen, die nicht Teil der Hauptnavigation sind, werden hier gesteuert.]]></phrase>
   <phrase title="style_prop_group_desc.tooltip" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Tooltips sind (in der Regel) kleine Hinweise, die erscheinen, wenn der Mauszeiger über Seitenelemente fährt, die zusätzliche Informationen benötigen, um ihren Zweck oder Inhalt zu vermitteln.]]></phrase>
+  <phrase title="style_prop_vgroup.CMTV_Code_bbCodeCodeBlock" addon_id="CMTV/Code" version_id="2010270" version_string="2.1.2"><![CDATA[BB-Code Code-Block]]></phrase>
   <phrase title="style_prop_vgroup.accent" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Akzent]]></phrase>
   <phrase title="style_prop_vgroup.bbCodeImage" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[BBCode Bilder]]></phrase>
   <phrase title="style_prop_vgroup.blockFooter" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Block Fußzeile]]></phrase>
@@ -8630,6 +8715,7 @@ Fehlermeldung: <span class="exceptionMessage">{message}</span>]]></phrase>
   <phrase title="thread_prefix.13" addon_id="" version_id="0" version_string=""><![CDATA[Unity]]></phrase>
   <phrase title="thread_prefix.14" addon_id="" version_id="0" version_string=""><![CDATA[GameMaker Studio]]></phrase>
   <phrase title="thread_prefix.15" addon_id="" version_id="0" version_string=""><![CDATA[Godot Engine]]></phrase>
+  <phrase title="thread_prefix.16" addon_id="" version_id="0" version_string=""><![CDATA[Ressource]]></phrase>
   <phrase title="thread_prefix.2" addon_id="" version_id="0" version_string=""><![CDATA[Xamarin]]></phrase>
   <phrase title="thread_prefix.3" addon_id="" version_id="0" version_string=""><![CDATA[Flutter]]></phrase>
   <phrase title="thread_prefix.4" addon_id="" version_id="0" version_string=""><![CDATA[React Native]]></phrase>
@@ -8932,7 +9018,7 @@ Wähle unten die zu installierenden Updates aus. Die ausgewählten Updates werde
   <phrase title="use_oembed" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[oEmbed verwenden]]></phrase>
   <phrase title="use_option_and_text_in_custom_bb_code" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Verwende {option}, um auf den Inhalt innerhalb der Option des Tags zu verweisen (falls vorhanden) und {text}, um auf den Inhalt innerhalb des Tags zu verweisen.]]></phrase>
   <phrase title="use_php_date_format" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Verwende PHP-<a href="https://www.php.net/manual/de/function.date.php" target="_blank">Datumsformat</a>]]></phrase>
-  <phrase title="use_php_money_format" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Verwende PHP-<a href="https://www.php.net/manual/de/function.money-format.php" target="_blank">Geldformat</a>]]></phrase>
+  <phrase title="use_php_money_format" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Use PHP <a href="https://php.net/manual/en/function.money-format.php" target="_blank">money format</a>]]></phrase>
   <phrase title="use_php_time_format" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[Verwende PHP-<a href="https://www.php.net/manual/de/function.date.php" target="_blank">Zeitformat</a>]]></phrase>
   <phrase title="use_question_captcha" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Verwende Frage &amp; Antwort CAPTCHA]]></phrase>
   <phrase title="use_re_syntax" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[(Benutze die Syntax /re/ für die Suche in regexp)]]></phrase>
@@ -9317,6 +9403,7 @@ Your account's access may be limited based on these actions. Please keep this in
   <phrase title="whatsapp" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[WhatsApp]]></phrase>
   <phrase title="when_user_state_non_x_users_receive_permissions_guest_group" addon_id="XF" version_id="2001270" version_string="2.0.12"><![CDATA[Wenn der Benutzerstatus nicht '{valid_state}' ist, erhält der Benutzer die Rechte der Gruppe {guest}.]]></phrase>
   <phrase title="while_at_or_above_points_threshold" addon_id="XF" version_id="1030010" version_string="1.3.0 Alpha"><![CDATA[Bei Erreichen oder Überschreiten der Schwellenwerte]]></phrase>
+  <phrase title="widget.birthdays" addon_id="" version_id="0" version_string=""><![CDATA[Heutige Geburtstage]]></phrase>
   <phrase title="widget.forum_overview_forum_statistics" addon_id="" version_id="0" version_string=""><![CDATA[]]></phrase>
   <phrase title="widget.forum_overview_members_online" addon_id="" version_id="0" version_string=""><![CDATA[]]></phrase>
   <phrase title="widget.forum_overview_new_posts" addon_id="" version_id="0" version_string=""><![CDATA[]]></phrase>
